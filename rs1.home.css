@@ -1,0 +1,211 @@
+/*
+* SECAO: DISCLAIMER
+* paginas: home
+*/
+.halfBanner {float: right;width: 190px;}
+.halfBanner .box-banner {margin-bottom: 10px;}
+.halfBanner .box-banner+.box-banner {margin-bottom: 0px;}
+
+
+/*
+* SECAO: CARROSSEL DE MARCAS
+* paginas: home
+*/
+.carousel {position: relative;clear: both;}
+.carousel .qd-prevBt,
+.carousel .qd-nextBt a {display: block;text-indent:-999em; color: transparent; font-size:0;}
+.carousel .qd-prevBt,
+.carousel .qd-nextBt {position: absolute;top:10px;z-index: 150; width:20px; height:30px; background: url("/arquivos/sprite_ui.png") no-repeat -110px -2px;cursor: pointer;opacity:0.6; filter:alpha(opacity=60);-webkit-transition:all 150ms ease-in;-moz-transition:all 150ms ease-in;-o-transition:all 150ms ease-in;transition:all 150ms ease-in;}
+.carousel .qd-prevBt {left: 3px;background-position: -80px -2px;}
+.carousel .qd-nextBt {right: 3px;}
+.carousel .qd-prevBt:hover {left: 1px;}
+.carousel .qd-nextBt:hover {right: 1px;}
+.carousel .qd-prevBt:hover,
+.carousel .qd-nextBt:hover {opacity:0.8; filter:alpha(opacity=80);}
+.carousel .qd-prevBt:active,
+.carousel .qd-nextBt:active {opacity:1; filter:alpha(opacity=100);}
+.brandsCarouselWrapper {margin:0 0 10px 0;height: 50px; overflow: hidden; display: flex; justify-content: center;} /* height: 90px; */
+.brandsContent {width: 900px!important; margin:0 auto;}
+.qd-listWrap li{width: auto !important; }
+.brandsContent .box-banner {float: left; margin: 0 50px;}
+.brandsContent .box-banner img{opacity:0.5; transition:all 0.2s linear;}
+.brandsContent .box-banner img:hover{opacity: 1;}
+
+
+/*
+* SECAO: HALF BANNERS
+* paginas: home
+*/
+/*.halfBannersWrapper {margin: 17px 0 26px;}*/ /* Alterado por BRUNO em 28/03/2014 */
+.halfBannersWrapper {margin: 10px 0 7px;}
+.halfBannersWrapper .box-banner:first-child {float: left;}
+.halfBannersWrapper .box-banner {float:right;}
+.halfBannerBottom .box-banner {float: left;}
+.halfBannerBottom .box-banner:first-child {margin: 0;}
+.halfBannerBottom .box-banner {margin: 0 0 0 10px}
+.ebitStampWrapper {background: url("/arquivos/bg_stamp.png") no-repeat scroll 0 0 transparent;height: 142px;margin: 0 0 10px;width: 189px;}
+.ebitStampWrapper a {margin: 13px auto 0;}
+
+
+/*
+* SECAO: NEWSLETTER
+* paginas: home
+
+.newsletterWrapper {background: url("/arquivos/bg_newsletter.png") no-repeat 0 0;height: 120px;padding: 11px 13px}
+.newsletterWrapper .vtexNewsButton {background-color:#f59319; border:0; border-radius: 0 4px 4px 0; color: #FFFFFF; float: left; font-size: 14px; height: 30px; line-height: 30px;position: relative;top: -1px; margin: 11px 0 0; width: 30px;-webkit-transition:all 150ms ease-in;-moz-transition:all 150ms ease-in;-o-transition:all 150ms ease-in;transition:all 150ms ease-in;}
+.newsletterWrapper .vtexNewsButton:hover {background:#0074ad;}
+.newsletterWrapper p {font-weight: bold;font-size: 12px;line-height: 14px;margin:0; }
+.newsletterWrapper .vtexNewsEmail {border:1px solid #A7A7A7; border-radius:4px 0 0 4px; float:left; height:28px; line-height:28px; padding:0 0 0 10px; width:120px;margin: 10px 0 0 0;background-color: #FFF;
+-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none;}
+.newsletterWrapper .newsletterText {color: #FFFFFF; float: left; font-size: 13px; height: 50px; margin: 0; padding-top: 8px; width: 157px;}
+.newsletterWrapper .vtexNewsWrap{margin: 0 0 0 0;}
+.newsletterWrapper .radioButtonsWrapper{margin: 10px 0 0 0;}
+.newsletterWrapper input[type="radio"]{margin: 0 2px;}
+.newsletterWrapper label {cursor: pointer;padding: 0 5px;}
+*/
+/*
+* SECAO: HALF BANNERS
+* paginas: home
+*/
+.brandsFilter {height: 380px;margin: 50px 0 55px;}
+
+
+/*
+* SECAO: VITRINE
+* paginas: home
+*/
+.multiCarousel {position: relative;}
+.brandFilterWrapper {clear: both;margin-top: 30px}
+.brandFilterWrapper h2 {border-bottom: 4px solid #BCCF3D; clear: both; float: left; font-size: 22px; font-weight: normal; letter-spacing: 1px; line-height: 38px; padding: 0 19px;}
+.brandFilterWrapper .multiCarousel {clear: both;padding:15px 0 0 0;border-top: solid 1px #DCDDDE;}
+.multiCarousel .qd-wrapIcons .qd-nextBt,
+.multiCarousel .qd-wrapIcons .qd-prevBt{background: url("/arquivos/sprite_ui.png") no-repeat -150px -90px; height: 15px; left: 55px; width: 22px; position: absolute; z-index: 100; cursor: pointer;opacity:0.6; filter:alpha(opacity=60)-webkit-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;transition:all 200ms ease-in;}
+.multiCarousel .qd-wrapIcons .qd-nextBt:hover,
+.multiCarousel .qd-wrapIcons .qd-prevBt:hover {opacity:0.8; filter:alpha(opacity=80);}
+.multiCarousel .qd-wrapIcons .qd-nextBt:active,
+.multiCarousel .qd-wrapIcons .qd-prevBt:active {opacity:1; filter:alpha(opacity=100);}
+.multiCarousel .qd-wrapIcons .qd-nextBt {bottom: -20px;}
+.multiCarousel .qd-wrapIcons .qd-prevBt {top: 0;background-position:-150px -71px;}
+.multiCarousel .qd-wrapIcons .qd-nextBt a,
+.multiCarousel .qd-wrapIcons .qd-prevBt a {display: none;}
+.qd-wrapIcons {float: left; height: 95px; position: relative; width: 145px;margin-top: 60px;}
+.qd-wrapCarouselIcons {margin: 30px 0;}
+.qd-wrapCollections {float: left; height: 350px; overflow: hidden; position: relative; width: 820px;position: relative;}
+.qd-wrapCollection {padding: 0 40px;position: relative;border-bottom: 0; border-top: 0;}
+.multiCarousel .shelf ul {border: none;}
+.multiCarousel .shelf li {min-height: 320px;}
+
+
+/* Carrossel */
+.qd-wrapCollections .shelf li:first-child {margin-left: 5px;}
+.qd-wrapCollections .shelf li {height: 235px;position: relative;}
+.qd-wrapCollections .qd-prevBt,
+.qd-wrapCollections .qd-nextBt {background: url("/arquivos/sprite_ui.png") no-repeat scroll -80px -2px transparent; cursor: pointer; height: 31px; opacity: 0.7; position: absolute; top: 110px; width: 20px; z-index: 10;}
+.qd-wrapCollections .qd-prevBt {left: 0;}
+.qd-wrapCollections .qd-nextBt {right: 0;background-position: -110px -2px;}
+.qd-wrapCollections .qd-prevBt:hover,
+.qd-wrapCollections .qd-nextBt:hover {filter:alpha(opacity=60);opacity: 0.6;}
+.qd-wrapCollections .qd-prevBt:active,
+.qd-wrapCollections .qd-nextBt:active {filter:alpha(opacity=80);opacity: 0.8;}
+.qd-wrapCollections .qd-nextBt {background-position: -110px -2px;}
+.qd-wrapCollections .qd-prevBt a,
+.qd-wrapCollections .qd-nextBt a {display: none;}
+
+
+/*
+* SECAO: ESTILO PARA HOME COM BANNERS LATERAIS
+* paginas: homeSideBanners
+*/
+.homeSideBanner .collectionsWrapper {padding: 0 10px 0 0;}
+.homeSideBanner .shelf li {width: 185px;}
+.homeSideBanner .rightColumn .box-banner {margin:0 0 10px 0;}
+
+/* CATEGORIAS NOVO */
+.categoriesHomeNew{	margin: 20px 0 0;	max-height: 300px;	width: 100%;	float:left;	display: flex;	justify-content: space-between;}
+.categoriesHomeNew .box-banner{position: relative;}
+.categoriesHomeNew .box-banner img{border: 1px solid #f2f2f2; box-sizing: border-box !important;}
+.categoriesHomeNew .box-banner:first-child{margin-right: 44px;}
+.categoriesHomeNew .box-banner:last-child{margin-left: 44px;}
+.categoriesHomeNew .box-banner:after{content:attr(data-content);color:#fff;	font-size:20px;	font-weight:400;	text-align:center;	background:rgba(0,0,0,.8);	line-height:40px;	left:0;	right:0;	bottom:0;	border-top:1px solid #FFA500;	position:absolute;	width: 100%;}
+/* CATEGORIAS NOVO */
+
+#float-header{display:none;	border-top:2px solid #0083B7;	border-bottom: 1px solid #f2f2f2;	background-color: #FFF;	height:auto;	width:100%;	float:left;	top:0px; position: fixed;	box-shadow:0 0 3px #333;	z-index: 999;}
+#float-header .headerTpl .leftColumn{margin:0px;height: auto;	float:left;}
+#float-header .logo img{margin:5px 0 0 18px; height: 75%;	width: 75%;}
+#float-header .mainColumn{width:627px;}
+#float-header .searchWrapper{margin-top: 25px;}
+#float-header .cartWrapper{margin-top: 19px;}
+
+/*AVALIACOES DA LOJA*/
+#yv-testimonial{ height: 172px; overflow: hidden;}#reviewShop .cycle-slideshow{ height: 175px; float:left;}
+#reviewShop h2, #reviewShop a{ color:#0074ad;	font-size:22px;	font-weight:normal;	line-height:38px;	padding:0 5px;}
+#reviewShop a:hover{text-decoration: none;}
+
+/*-------------------------MODAL OPTIN-------------------------------------*/
+#reModalMask{height: 100%; width: 100%; top: 0;	right: 0;	position: fixed; background-color:rgba(0,0,0,0.45);	font-family: sans-serif; display: none; z-index: 999999;}
+#reModalBody{margin: 5% auto;	height: auto;	max-width: 682px;	position: relative;}
+.rs1-com-br #reModalBody{box-shadow: 0 5px 50px #454545; border:1px solid #000;}
+#reModalHead{padding: 0px 0;	width: 100%; float:left; text-align: center; background-color: #FFA500;	display: flex; align-items:center;display: none;}
+.rs1-com-br #reModalHead{display: block !important; padding: 0;}
+.rs1-com-br #reModalHead h2, .rs1-com-br #reModalHead img{display:none;}
+#reModalHead img{	margin-left:5%;	height: auto;	width: auto; float:left;}
+#reModalHead h2{width: 65%;	float:left;	font-size: 20px; color:#4A4A4A;	font-weight: 400;}
+#reModalHead h2{font-size: 26px; color:#FFF;}
+#reModalClose{top:-10px;	right:-17%;	padding-top:5px;	height: 25px;	width: 30px; position: absolute; font-style: normal; color:#FFF; text-align: center; font-size: 18px;	background-color:red; border-radius: 50px;	cursor: pointer; transition:all 0.2s linear;}
+.rs1-com-br #reModalHead #reModalClose{background-color: rgba(255,255,255,0.9); color:#000;}
+#reModalClose:hover{background-color: rgba(0,0,0,0.9); box-shadow: 0 0 8px #202020;}
+#reModalHead #reModalClose:hover{background-color: rgba(255,255,255,0.9); box-shadow: 0 0 8px #FFF;}
+#reModalContent{height: 491px;	width: 791px;	float:left;	text-shadow:0 0 5px #000;	background: url("/arquivos/MODAL-RS1.png") no-repeat center center;background-size: auto 100%;}
+.reModalTitle {display: none!important;}
+
+.vtexNewsWrap {
+  width: 791px!important;
+  height: 491px!important;
+  margin-top: 24%!important;
+  left: 50%!important;
+  position: relative!important;
+}
+.ricardo-eletro #reModalContent .reModalTitle h2{	margin: 20px 0 0 0;	padding: 10px; height: auto; width: auto;	float:left;	clear: both;	color:#FFF;	font-size: 0px;	letter-spacing: -1px;	text-align: center;}
+
+.ricardo-eletro #reModalContent .reModalTitle h2 p{margin:-5px 0 0 0; padding: 0; font-size: 0px!important;}
+
+#reModalContent .reModalTitle h2{	margin: 20px 0 0 0;	padding: 10px; height: auto; width: auto;	float:left;	clear: both;	color:#FFF;	font-size: 28px;	letter-spacing: -1px;	text-align: center;}
+#reModalContent .reModalTitle h2 p{margin:-5px 0 0 0; padding: 0; font-size: 20px;}
+#reModalContent .reModalInfo{	padding: 10px 0 0 10px;	width:90%; float:left;	color:#FFF;	font-size: 12px; align-items:center;	position: absolute;	bottom: 0; left: 58%!important; top:70%}
+#reModalContent .reModalInfo input{margin:0 10px 75px 0; cursor: pointer;}
+#reModalContent .reModalInfo p{position: relative; bottom: 0; top: -40%!important; width: 330px!important;}
+#reModalContent .formWrapper{padding-left: 10px; clear: both;	float:left;	color:#FFF; width: 50%;}
+#reModalContent .formWrapper input{margin: 5px 0;  padding:0 5px; width: 70%;  border: 1px solid #d2d2d2; background: #FFF; font-family: sans-serif; float:left;}
+#reModalContent .formWrapper input:focus{box-shadow: 0 0 5px #FFA500; border-color: #FFA500}
+#reModalContent .formWrapper .vtexNewsButton{
+  border: none!important;
+  width: 60%;
+  color: #fff!important;
+  height: 59px;
+  background: #04C804;
+  float: left!important;
+  border-radius: 9px;
+  font-size: 30px;
+  text-shadow: 1px 1px #000;
+ -webkit-box-shadow: 19px 20px 5px 0px #000 ;
+-moz-box-shadow:    30px 20px 5px 0px #000 ;
+box-shadow:         15px 20px 20px 1px #000;
+}
+#reModalContent .formWrapper .vtexNewsButton:hover{background-color: #009900}
+#reModalContent .newsletter-title, #reModalContent fieldset p, #reModalContent h3{display: none;}
+#reModalContent .success{line-height: 18px; font-size: 12px;}
+#reModalContent .success em{font-size: 20px; margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
