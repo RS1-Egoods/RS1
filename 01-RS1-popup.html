@@ -1,0 +1,69 @@
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		if (jQuery.cookie("mask-cookie") == "hide") {
+	        $("#reModalMask").hide().addClass("mask-hide");
+	    } else {
+	        $("#reModalMask").fadeIn(200);
+	    }
+
+	    $("#reModalClose").click(function () {
+	        $("#reModalMask").fadeOut(200);
+	        jQuery.cookie("mask-cookie", "hide", {
+	            expires: 7
+	        });
+	    });	
+	    
+    	$(".vtexNewsButton").click(function(){
+	    	$("#reModalMask").delay(2000).fadeOut(200).queue(function() { $(this).remove(); });
+	    	jQuery.cookie("mask-cookie", "hide", {
+	            expires: 365
+	        });
+	    });
+    });
+</script>
+
+<script type="text/javascript">
+         $(document).ready(function(){
+        window['optimizely'] = window['optimizely'] || [];
+ $("#button2").bind("mousedown", function() {     window.optimizely.push(["trackEvent", "eventName"]); 
+ });
+ </script>
+
+<div id="reModalMask">
+	<div id="reModalBody">
+		<div style="display: none;" id="reModalHead">
+			<img src="/arquivos/logo-home-white.png"/>
+			<h2>Juntos na mesma paixão.</h2>
+		</div>
+
+		<div id="reModalContent">
+		<i id="reModalClose" title="Clique aqui para fechar">x</i>
+			<div class="reModalTitle">
+				<h2>Cadastre seu e-mail
+				<p>e fique ligado nas novidades.</p></h2>
+			</div>
+
+			<div class="reModalNews">
+				<div class="newsletterWrapper">
+					<div class="promo vtexNewsWrap">
+						<div class="formWrapper">
+							<fieldset>
+								<input type="hidden" class="animateFieldSuccess" value="Obrigado!" />
+                                <input type="text" name="name" class="vtexNewsNameInput" placeholder="Nome"/>
+								<input type="text" name="email" class="vtexNewsEmail"/>                                    
+								<input type="button" id="#button2" class="vtexNewsButton" value="Cadastrar-se"/>
+							</fieldset>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="reModalInfo">
+				<input type="checkbox" title="Aceito receber ofertas por email." required="required">Aceito receber ofertas por email.</input>
+
+				<p>*Nós nunca enviaremos Spam, você poderá se descadastrar quando quiser.</p>
+			</div>
+		</div>
+	</div>
+</div>
