@@ -155,7 +155,7 @@
 .rs1-com-br #reModalHead #reModalClose{background-color: rgba(255,255,255,0.9); color:#000;}
 #reModalClose:hover{background-color: rgba(0,0,0,0.9); box-shadow: 0 0 8px #202020;}
 #reModalHead #reModalClose:hover{background-color: rgba(255,255,255,0.9); box-shadow: 0 0 8px #FFF;}
-#reModalContent{height: 491px;	width: 791px;	float:left;	text-shadow:0 0 5px #000;	background: url("/arquivos/MODAL-RS1.png") no-repeat center center;background-size: auto 100%;}
+#reModalContent{height: 491px;	width: 791px;	float:left;	text-shadow:0 0 5px #000;	background: url("/arquivos/MODAL-CAPTAÇAO-DE-EMAIL-RS1.png") no-repeat center center;background-size: auto 100%;}
 .reModalTitle {display: none!important;}
 
 .vtexNewsWrap {
@@ -171,12 +171,52 @@
 
 #reModalContent .reModalTitle h2{	margin: 20px 0 0 0;	padding: 10px; height: auto; width: auto;	float:left;	clear: both;	color:#FFF;	font-size: 28px;	letter-spacing: -1px;	text-align: center;}
 #reModalContent .reModalTitle h2 p{margin:-5px 0 0 0; padding: 0; font-size: 20px;}
-#reModalContent .reModalInfo{	padding: 10px 0 0 10px;	width:90%; float:left;	color:#FFF;	font-size: 12px; align-items:center;	position: absolute;	bottom: 0; left: 58%!important; top:70%}
-#reModalContent .reModalInfo input{margin:0 10px 75px 0; cursor: pointer;}
-#reModalContent .reModalInfo p{position: relative; bottom: 0; top: -40%!important; width: 330px!important;}
-#reModalContent .formWrapper{padding-left: 10px; clear: both;	float:left;	color:#FFF; width: 50%;}
-#reModalContent .formWrapper input{margin: 5px 0;  padding:0 5px; width: 70%;  border: 1px solid #d2d2d2; background: #FFF; font-family: sans-serif; float:left;}
-#reModalContent .formWrapper input:focus{box-shadow: 0 0 5px #FFA500; border-color: #FFA500}
+#reModalContent .reModalInfo{	
+padding: 10px 10px 0 10px;	
+width:100%; 
+float:left;	
+color:#FFF;	
+font-size: 15px; 
+align-items:center;	
+position: absolute;	
+bottom: 0; 
+left: 4%!important; 
+top:85%
+}
+#reModalContent .reModalInfo input{
+  margin:0 10px 0 0; 
+  cursor: pointer;
+}
+#reModalContent .reModalInfo p{
+position: relative;
+bottom: 0;
+top: -40%!important; 
+width: 330px!important;
+}
+#reModalContent .formWrapper{
+  padding-left: 10px;
+  clear: both;	
+  float:left;	
+  color:#FFF;
+  width: 50%;
+}
+#reModalContent .formWrapper input{
+  height: 50px;
+  width: 332px;
+  margin: 5px 0;  
+  padding:0 5px; 
+  width: 70%;  
+  border: 1px solid #d2d2d2; 
+  background: #FFF; 
+  font-family: 
+  sans-serif; 
+  float:left;
+  border-radius:9px;
+ }
+#reModalContent .formWrapper input:focus{
+  box-shadow: 0 0 5px #FFA500; 
+  border-color: #FFA500;
+ }
 #reModalContent .formWrapper .vtexNewsButton{
   border: none!important;
   width: 60%;
@@ -186,26 +226,28 @@
   float: left!important;
   border-radius: 9px;
   font-size: 30px;
-  text-shadow: 1px 1px #000;
- -webkit-box-shadow: 19px 20px 5px 0px #000 ;
--moz-box-shadow:    30px 20px 5px 0px #000 ;
-box-shadow:         15px 20px 20px 1px #000;
 }
 #reModalContent .formWrapper .vtexNewsButton:hover{background-color: #009900}
 #reModalContent .newsletter-title, #reModalContent fieldset p, #reModalContent h3{display: none;}
 #reModalContent .success{line-height: 18px; font-size: 12px;}
 #reModalContent .success em{font-size: 20px; margin-bottom: 10px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.vtexNewsButton{
+  left: 162px!important;
+  position: absolute!important;
+  height: 64px!important;
+  width: 234px!important;
+  top: 233px!important;
+ }
+.vtexNewsNameInput{
+  position: absolute!important;
+  top: 70px!important;
+  right: 835px!important;
+  width: 302px!important;
+}
+.vtexNewsEmail{
+   width: 408px!important;
+   position: absolute!important;
+   top: 135px;
+   right: 730px!important;
+ }

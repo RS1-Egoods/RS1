@@ -1,0 +1,281 @@
+#columnMain .paddingFix {padding-left: 9px;}
+.disclaimer {display: none;}
+.disclaimerContent {width: 785px;}
+
+/*
+* SECAO: MENU LATERAL (SmartResarch)
+* paginas: busca, departamento, categoria
+*/
+.menu-navegue,
+.search-filter-button {display: none;}
+
+/*.menu-departamento,*/
+.search-multiple-navigator {
+	width: 100%;
+	border:1px solid #d2d2d2;
+	display: block!important;
+	float: left;
+	margin: 0 0 20px 0;
+	position: relative;
+	visibility: visible;
+}
+.search-single-navigator {
+	display: block!important;
+	visibility: visible!important;
+}
+
+/* 1.OFF E 2.ON -- TESTANDO C/ 1.ON E 2.OFF */
+/*.search-multiple-navigator+.search-single-navigator {
+	display: block!important;
+	visibility: visible!important;
+}*/
+.search-multiple-navigator+.search-single-navigator {
+	display: none!important;
+	visibility: none!important;
+}
+
+.menu-departamento h3 a {
+	padding:10px 0;
+	box-sizing: padding-box;
+	background: #0083B7;
+	clear: both; 
+	color: #FFF;
+	display: block;
+	text-align: center;
+	font-size: 16px; 
+	font-weight: normal;
+	line-height: 18px; 
+	width: 100%;
+}
+.menu-departamento h3 a:hover {
+	text-decoration: none;
+	background-position:0 0 ;
+	background: #FFA500;
+}
+
+.menu-departamento h3{margin-top:1px;}
+.menu-departamento h3:first-child{margin:0;}
+.menu-departamento h5 {display: block; font-size: 14px; padding: 7px 5px 7px 35px; position: relative; text-transform: capitalize;background-color:#e5e5e5;font-weight: bold;}
+.menu-departamento ul {clear: both;}
+.menu-departamento ul .ver-filtros {padding: 7px 0 7px 30px; position: relative;font-size: 11px;display: block;color: #0287CD}
+.menu-departamento .filtro-ativo {background-color: #d2d2d2;padding:7px 0 7px 15px;line-height: 14px;font-size: 13px;}
+.menu-departamento li a{cursor: pointer; display: block; padding: 7px 0 7px 15px; position: relative;font-size: 13px; text-transform: capitalize;color: #383431;-webkit-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;transition:all 200ms ease-in;}
+.menu-departamento li a:hover{background-color: #0074AD;color: #FFF;text-decoration: none;}
+.menu-navegue {display: none;}
+.search-multiple-navigator h4 {display: none;}
+.search-multiple-navigator h5 {display: block; font-size: 14px; padding: 7px 5px 7px 35px; position: relative; text-transform: capitalize;background-color:#e5e5e5;font-weight: bold;}
+/*.search-multiple-navigator fieldset {clear: both;}*/
+.search-multiple-navigator fieldset {border: medium none; max-height:300px; overflow:auto; display:block;}
+.search-multiple-navigator div >a {display: none;}
+.search-multiple-navigator label{cursor: pointer; display: block; padding: 7px 5px 7px 35px; position: relative;font-size: 11px; text-transform: capitalize;color: #383431;-webkit-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;transition:all 200ms ease-in;}
+.search-multiple-navigator label:hover{background-color: #0074AD;color: #FFF;text-decoration: none;  }
+.search-multiple-navigator label input {left: 10px; position: absolute; top: 5px;}
+.search-multiple-navigator label.sr_selected {background-color: #0074AD;color: #FFF;text-decoration: none;}
+
+/*
+* SECAO: LISTAGEM DE PRODUTOS (SmartResarch)
+* paginas: busca, departamento, categoria
+*/
+.main {
+	float: right; /* Colocado por BRUNO em 18/03/2014 */
+	margin: 10px 0 40px;
+	width: 791px;
+}
+
+.resultItemsWrapper+.searchResultsTime+.sub,
+.main .filterBy,
+.main .pager,
+.resultado-busca-tempo,
+.searchResultsTime,
+.compare {
+	display: none;
+}
+
+.resultItemsWrapper {
+	position:relative;
+}
+.orderBy {
+	float: right;
+	line-height: 36px;
+}
+.orderBy label {
+	display: block;
+	float: left;
+}
+.orderBy select {
+	float: right;
+}
+
+
+/* Prateleira */
+/*
+.shelf li {width: 181px;margin: 3px;}
+.shelf li.last {margin-right:0px;}
+.shelf ul {border: none;}*/
+
+.prateleira ul {
+	border: none;
+}
+.prateleira ul li {
+	float: left;
+	/*margin: 3px;*/
+	/*height: 400px !important;*/
+	/*width: 180px;*/
+}
+.prateleira ul li.last {
+	margin-right:0px;
+}
+
+/* Bread Crumb */
+.bread-crumb {padding:10px 10px;border-bottom: 1px solid #d2d2d2;}
+.bread-crumb ul {float: left;margin: 10px 0 0;}
+.bread-crumb li{float:left; background:url("/arquivos/breadcrumb_list.png") no-repeat right 4px; margin-right:4px; padding-right:10px;font-size: 14px;}
+.bread-crumb a:hover{text-decoration:underline;}
+.bread-crumb li.last{background:none;margin:0;padding:0;}
+
+
+/*
+* SECAO: RESULTADO DE BUSCA NAO ENCONTRADA
+* paginas: busca
+*/
+.busca-vazio >p {padding: 5px;margin:10px 0 50px; text-align: center; color: #FFF;border-radius:0 0 5px 5px;clear: both;background-color: #333;font-size: 14px;}
+.noSarchResults {padding: 10px 40px 30px; }
+.noSarchResults h4 {color: #0295d3; line-height: 28px;}
+.noSarchResults li {line-height: 20px; list-style: circle; margin-left: 12px;}
+
+#scrollLoading {background: url("/arquivos/ajaxloaderTpl.gif") no-repeat scroll 12px 10px #F3F3F3; display: block; font-size: 13px; font-weight: normal; letter-spacing: 1px; line-height: 30px; margin: 0 auto; padding: 0 20px 0 50px; width: 110px;text-align: center;}
+/* Return to top */
+#returnToTop{display:none; position:fixed; bottom:100px; right:0; width:90px; padding:3px 0 0 4px; height:32px; background-color:#FFF; border-radius:4px 0 0 4px;opacity:0.5!important; filter:alpha(opacity=50);cursor: pointer;}
+#returnToTop:hover{opacity:1!important; filter:alpha(opacity=100);}
+#returnToTop a:hover{text-decoration: none!important;}
+#returnToTop span{font-weight:bold; height:auto; line-height:12px; color:#FF4E0D;text-align: left;}
+#returnToTop .text {display: block;}
+#returnToTop .text2{float: left; font-size: 18px; font-weight: normal;letter-spacing: 3px;}
+#returnToTop .arrowToTop{background:url("/arquivos/returnToTop.png") no-repeat #FF4E0D; width:32px; height:32px; position:absolute; top:2px; right:0; display:block; float:right;}
+.ie7 #returnToTop span {line-height:15px;}
+
+
+/* Colocado por BRUNO em 19/03/2014 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*ITENS DE RESULTADO DE BUSCA*/
+.n3colunas li{
+	min-height: 450px;
+	margin:0 0%;
+	padding: 4px;
+	-moz-box-sizing: padding-box;
+	-webkit-box-sizing: padding-box;
+	-o-box-sizing: padding-box;
+	box-sizing: padding-box;
+	width: 32%;
+	float:left;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .n3colunas li{width: 31%;}
+}
+
+.n3colunas li:nth-child(n+2){
+	margin: 0 0 0 1%!important;
+	padding: 0 0 0 0!important;
+}
+
+/*THUMBNAIL BANNER RESULTADO DE BUSCA*/
+#search-result-banner{
+	margin-bottom: 10px;
+  height:auto;
+  width:100%;
+  float:right;
+	border:1px solid #f2f2f2;
+	border-left:none; 
+	
+}
+
+#search-result-banner .search-result{
+    height:180px;
+    width:198px; 
+    float:left;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+	   
+}
+
+#search-result-banner .caption{
+    padding:10px 0px;
+    box-sizing: border-box;
+    height:auto;
+    width:100%;
+    float:left;
+    font-size:13px;
+    text-align:center;
+    color:#FFF;
+    position:absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+		border-left: solid;
+    border-width: 1px;
+}
+
+/*RESULTADO DE BUSCA PARA CAPACETES*/
+/*HOVER CAPACETES*/
+#search-result-banner .open:hover .caption,
+#search-result-banner .closed:hover .caption,
+#search-result-banner .articulated:hover .caption,
+#search-result-banner .sunvisor:hover .caption,
+/*HOVER JAQUETAS*/
+#search-result-banner .leather:hover .caption,
+#search-result-banner .ventilated:hover .caption,
+#search-result-banner .waterproof:hover .caption
+{
+    bottom:0px;
+}
+
+#search-result-banner .open{
+    background:url(/arquivos/search-result-open-helmet.jpg) no-repeat;
+}
+
+#search-result-banner .closed{
+    background:url(/arquivos/search-result-closed-helmet.jpg) no-repeat; 
+}
+
+#search-result-banner .articulated{
+    background:url(/arquivos/search-result-articulated-helmet.jpg) no-repeat; 
+}
+
+#search-result-banner .sunvisor{
+    background:url(/arquivos/search-result-sun-visor-helmet.jpg) no-repeat; 
+}
+
+#search-result-banner .sunvisor .caption{
+	bottom: 0px;
+}
+/*RESULTADO DE BUSCA PARA CAPACETES*/
+
+/*RESULTADO DE BUSCA PARA JAQUETAS*/
+#search-result-banner .leather{
+	border-left:1px solid #f2f2f2;
+	box-sizing: border-box;
+	height: 270px;
+	width: 33.3%; 
+	background:url(/arquivos/search-result-jacket-leather.jpg) no-repeat;
+}
+
+#search-result-banner .ventilated{
+	height: 270px;
+	width: 33.3%; 
+  background:url(/arquivos/search-result-jacket-ventilated.jpg) no-repeat; 
+}
+
+#search-result-banner .waterproof{
+	height: 270px;
+	width: 33.3%;  
+	background:url(/arquivos/search-result-jacket-waterproof.jpg) no-repeat; 
+}
