@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+    <vtex:contentPlaceHolder id="meta-title" />
+    <script src="//cdn.optimizely.com/js/2234760127.js"></script>
+    <!-- vtex:metaTags -->
+    <vtex:metaTags />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link href="/Control/ArquivoExibir.aspx?NomeArquivo=favicon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="/arquivos/rs1.reset.css" />
+	<link rel="stylesheet" type="text/css" href="/arquivos/rs1.common.css" />
+	<link rel="stylesheet" type="text/css" href="/arquivos/rs1.search.css" />
+	 <!-- menu -->
+    <link rel="stylesheet" type="text/css" href="/arquivos/bootstrap-menu-rs1.min.css" />
+    <link rel="stylesheet" type="text/css" href="/arquivos/menu-rs1-10-2015.css" />
+    <link rel="stylesheet" type="text/css" href="//rs1.vteximg.com.br/arquivos/cnv-style-seo.css" />
+    <!-- fim menu -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript">var $$=jQuery.noConflict(true);</script>
+	<script type="text/javascript" src="/arquivos/rs1.functions.base.installments.js"></script>
+	<script type="text/javascript" src="/arquivos/jquery.cycle2.min.js"></script>
+    <script type="text/javascript">
+		$(".showCountWrapper").show();
+	    $("#container").css("margin-top","395px");
+    </script>
+</head>
+<body itemscope="" itemtype="http://schema.org/AutoPartsStore">
+    <vtex.cmc:modal />
+	<div id="container">    
+		<div class="mainTpl">
+			<div id="columnMain" class="dualColumn">
+				<div class="paddingFix">
+                    <vtex:contentPlaceHolder id="search-result-banner" />
+                    
+                    <!--BANNER-->
+					<div class="disclaimer">
+						<div class="disclaimerContent cycle-slideshow auto" data-cycle-slides=">.box-banner" data-cycle-prev=".cycle-prev" data-cycle-next=".cycle-next">
+							<div class="ajaxloaderTpl"></div>
+							<vtex:contentPlaceHolder id="Disclaimer" />
+							<span class="cycle-pager"></span>
+							<div class="cycle-prev"></div>
+		    				<div class="cycle-next"></div>
+						</div>
+					</div>
+                    
+                    <!--BREADCRUMB-->
+					<div class="breadCrumbWrapper">
+						<vtex.cmc:breadCrumb />
+						<vtex:contentPlaceHolder id="titulo-texto-seo" />
+					</div>
+                    
+          <!--RESULTADO DA BUSCA-->
+          <vtex.cmc:searchResult layout="86ae5797-f3d4-45aa-9787-bc8067115d71" itemCount="15" columnCount="3" showUnavailable="true" />
+					<!--<vtex.cmc:searchResult layout="8013cce6-1bcd-4ca4-b8c0-ea3428de5bae" itemCount="15" columnCount="3" showUnavailable="false" />-->
+					<div class="cnv-box-seo cnv-box-seo-bottom" style="clear:both;"><vtex:contentPlaceHolder id="texto-seo" /></div>
+				</div>
+			</div>
+            
+            <!--MENU LATERAL-->
+			<div id="columnLeft" class="dualColumn">
+				<vtex.cmc:searchNavigator />
+			</div>
+		</div>
+	</div>
+    <!-- SMARTRESEARCH-->
+    <script type="text/javascript" src="/arquivos/vtex-smartResearch.min.js"></script>
+	<vtex:template id="header" />
+	<vtex:template id="footer-novo" />
+	<!-- CRAZY EGG -->
+	<script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+        var b=document.getElementsByTagName("script")[0];
+        a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0027/3683.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+    <!-- CRAZY EGG -->
+    <style>
+      .installmentWrapper {
+			  display: block!important;
+			}
+    </style>
+
+  <script type="text/javascript" src="//rs1.vteximg.com.br/arquivos/cnv-functions-seo.js"></script>
+</body>
+
+<style>
+        .shelf .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-20-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-25-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+.desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-35- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-26-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-43-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-52-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-28-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-40-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-50-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-55-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-60-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-27-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-29-{
+      background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-31-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-32-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-33-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-34-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-41-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-42-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-51-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-ls2{
+    color: #696969;
+    background-color: white;
+    /* background-image: linear-gradient(to bottom, #484747 0%,#484747 49%,#484747 50%,rgba(0,0,0,0) 51%,#0d0000 100%); */
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+   }
+
+   .shelf .ganhe-camiseta-norisk{
+    color: #696969;
+    background-color: white;
+    /* background-image: linear-gradient(to bottom, #484747 0%,#484747 49%,#484747 50%,rgba(0,0,0,0) 51%,#0d0000 100%); */
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-agv{
+    color: #696969;
+    background-color: white;
+    /* background-image: linear-gradient(to bottom, #484747 0%,#484747 49%,#484747 50%,rgba(0,0,0,0) 51%,#0d0000 100%); */
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .frete-gratis---sul-sudeste-e-df {
+    background: url(/arquivos/SUL-SUDEST-DF.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px!important;
+    font-size: 0.1px;
+    z-index: 200;
+    left: -115px!important;
+}
+
+.shelf .frete-gratis---sul-sudeste-e-df{
+    background: url(/arquivos/SUL-SUDEST-DF.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 100;
+    right: 0;
+    font-size: 0.1px;
+    text-align: left;
+}
+
+.shelf .ofertas-de-n-a-t-a-l{
+    color: red; 
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .ofertas-de-n-a-t-a-l{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+
+</style>
+</html>
