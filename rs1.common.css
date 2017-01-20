@@ -1,0 +1,3911 @@
+@charset "UTF-8";
+/*
+* SECAO:ESTILOS GLOBAIS
+* paginas:todas
+*/
+.marca-teste .ganhe-zeus-218 {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.resultado-busca  .ganhe-zeus-218 {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.marca-teste .ganhe-bota-puma {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+.marca-teste .ganhe-zeus-218 {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.resultado-busca .ganhe-bota-puma {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.resultado-busca .ganhe-zeus-218 {
+    color: #fff;
+    background-color: #FF1493;
+    font: 13px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+/* paginas de categoria e busca BF */
+.resultado-busca .desconto-black-25- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -203px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-30- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -255px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-50- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -407px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-10- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -50px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-15- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -100px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-40- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -305px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-20- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -151px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-45- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off-2015.png") 0px -356px;
+    background-position: z-index: 9999;
+}
+
+.resultado-busca .desconto-black-35- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/35porcentagem.png") 0px -363px;
+    background-position: z-index: 9999;
+}
+/* paginas de categoria e busca BF */
+
+/*MENU USUARIO SUPERIOR*/
+
+.x-thermo-air {
+    background: transparent url("/arquivos/x-thermoair.png") no-repeat scroll 0% 0% / 100% 100%;
+    width: 84px;
+    height: 39px;
+    font-size: 0px;
+    position: absolute;
+    top: 65px;
+    left: -1px;
+}
+
+
+.x-sensor {
+    background: transparent url("/arquivos/x-sensor.png") no-repeat scroll 0% 0% / 100% 100%;
+    width: 84px;
+    height: 39px;
+    font-size: 0px;
+    position: absolute;
+    top: 65px;
+    left: -1px;
+}
+
+
+.x-power {
+    background: transparent url("/arquivos/x-power.png") no-repeat scroll 0% 0% / 100% 100%;
+    width: 84px;
+    height: 39px;
+    font-size: 0px;
+    position: absolute;
+    top: 65px;
+    left: -1px;
+}
+
+.x-thermo {
+    background: transparent url("/arquivos/x-thermo.png") no-repeat scroll 0% 0% / 100% 100%;
+    width: 84px;
+    height: 39px;
+    font-size: 0px;
+    position: absolute;
+    top: 65px;
+    left: -1px;
+}
+
+.pre-venda-bell {
+    background: url(/arquivos/flagbell2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 43px;
+    font-size: 0.0px;
+    position: absolute;
+    top: -3px;
+    left: 100px;
+}
+
+#menu-usuario-wrapper {
+    color: lightgray;
+    background: #333;
+    border-bottom: 2px solid #337bff;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+#menu-usuario {
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    width: auto;
+    background: #337bff;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin: 0 60px;
+    padding: 5px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-sizing: padding-box;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+    #menu-usuario:after {
+        margin: 10px 0 0 5px;
+        float: right;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 5px 0 5px;
+        border-color: #FFF transparent transparent transparent;
+    }
+
+#menu-usuario-wrapper .active {
+    color: white;
+    background: #337bff;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+    #menu-usuario-wrapper .active:after {
+        content: "";
+        color: #FFF;
+        margin: 10px 0 0 5px;
+        float: right;
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 5px 10px 5px;
+        border-color: transparent transparent #FFF transparent;
+    }
+
+    #menu-usuario-wrapper.active a {
+        color: white;
+    }
+
+#menu-usuario a {
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+    #menu-usuario a:hover {
+        color: white;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+#menu-usuario-conteudo h4 {
+    color: white;
+}
+
+#menu-usuario-conteudo {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+
+/*CONTEUDO*/
+.menu-usuario-atendimento {
+    box-sizing: padding-box;
+    padding: 10px 5px;
+    margin: 20px 0;
+    background: #3B3B3B;
+    float: left;
+}
+
+    .menu-usuario-atendimento .menu-usuario-link:first-child {
+        border-left: 0px;
+    }
+
+    .menu-usuario-atendimento .menu-usuario-link {
+        padding: 0px 6px;
+        float: left;
+        min-height: 180px;
+        width: 33.33%;
+        border-left: 1px #545454 solid;
+        box-sizing: border-box;
+    }
+
+.menu-usuario-link img {
+    margin: 0px !important;
+    padding: 0px !important;
+    vertical-align: 0 !important;
+}
+
+#SkypeButton_Call_atendimento.rs1_1_paraElement {
+    margin: 0px !important;
+}
+
+.menu-usuario-atendimento a {
+    text-decoration: none !important;
+}
+
+.menu-usuario-atendimento li:hover {
+    color: #FFF !important;
+}
+
+.menu-usuario-atendimento .title {
+    color: #FFA500;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-usuario-atendimento li {
+    color: #bebebe;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.menu-usuario-atendimento .menu-usuario-link:nth-child(3) li:nth-child(3) {
+    width: 25%;
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+
+.menu-usuario-atendimento .menu-usuario-link:nth-child(3) p {
+    margin: 0px;
+}
+
+.menu-usuario-atendimento .menu-usuario-link:nth-child(3) li:nth-child(4) {
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+}
+
+.menu-usuario-atendimento .menu-usuario-link .whatsApp img {
+    float: left;
+    height: 30px;
+    margin-right: 10px !important;
+}
+
+. .menu-usuario-atendimento .menu-usuario-link .whatsApp {
+    height: 30px;
+    line-height: 32px;
+    float: left;
+    width: 100%;
+}
+
+.frete-regiao {
+    margin-top: 10px;
+    height: 25px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/*MENU USUARIO SUPERIOR*/
+
+.mainTpl, .middleContainer, .mainContentWrapper {
+    width: 990px;
+}
+
+body, .headerTpl {
+    min-width: 1000px;
+}
+/* Categoria filtros */
+.categoria-avan .search-multiple-navigator {
+    display: none !important;
+}
+
+.categoria-avan .search-single-navigator h4 {
+    font-weight: normal !important;
+    cursor: pointer !important;
+    display: block !important;
+    position: relative !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    color: #383431 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -moz-transition: all 200ms ease-in !important;
+    -o-transition: all 200ms ease-in !important;
+    transition: all 200ms ease-in !important;
+}
+
+    .categoria-avan .search-single-navigator h4:hover {
+        background-color: #0074AD !important;
+        color: #000 !important;
+        text-decoration: none !important;
+    }
+
+.categoria-avan .Marca {
+    display: none !important;
+}
+
+.categoria-avan .HideMarca {
+    display: none !important;
+}
+
+.categoria-avan .even {
+    display: none !important;
+}
+
+.categoria-avan .Modelos {
+    display: none !important;
+}
+
+.categoria-avan .HideModelos {
+    display: none !important;
+}
+
+.categoria-avan .search-single-navigator {
+    margin-top: 94px !important;
+}
+
+/*categorias filtros*/
+
+.produto .ganhe-viseira-iridium {
+    background: url(/arquivos/FLAG-RS1-GANHE-VISEIRA.png) transparent;
+    width: 88px;
+    height: 74px;
+    font-size: 0.1px;
+    position: absolute;
+    top: 450px;
+    left: -105px;
+    z-index: 9999999;
+}
+
+.shelf .ganhe-viseira-iridium {
+    background: url(/arquivos/FLAG-RS1-GANHE-VISEIRA.png) transparent;
+    width: 88px;
+    height: 74px;
+    font-size: 0.1px;
+    position: absolute;
+    top: 170px;
+    left: 160px;
+}
+
+.produto .frete-gratis---todo-brasil{
+    background: url('/arquivos/output_EY73Bw.gif');
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px!important;
+    right: ;
+    font-size: 0.1px;
+    z-index: 99;
+    left: -115px!important;
+}
+
+.shelf .frete-gratis---todo-brasil{
+    background: url('/arquivos/output_EY73Bw.gif');
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 100;
+    right: 0;
+    font-size: 0.1px;
+    text-align: left;
+}
+
+body {
+    font-family: Verdana,Geneva,Kalimati,sans-serif;
+    color: #383431;
+    font-size: 11px;
+}
+
+/* Estilos Globais de Tags */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+select {
+    border: solid 1px #C2C4C5;
+    padding: 8px 0;
+    background-color: #FFF;
+    border-radius: 5px;
+    background: url('/arquivos/bg_select.png') repeat-x scroll 0 0;
+}
+
+/*FLAGS TODAS PAGINAS*/
+.frete-gratis-mulheres {
+    background: url('/arquivos/flag-frete-gratis-mulheres.png');
+    color: #A0FD00;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    width: 180px;
+}
+
+.desc---20--a-vista---boleto-deposito {
+    background: url('/arquivos/flag-desc-20-utm.png');
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.1;
+    height: 17px;
+    inline-block;
+    margin-bottom: -4px !important;
+    width: 184px;
+}
+
+.desc--15--parcelado---cartao-de-credito {
+    background: url('/arquivos/flag-desc-15-utm.png');
+    color: #FFF;
+    display: inline-block;
+    font-size: 0.1;
+    height: 17px;
+    width: 184px;
+}
+
+/*FLAG DESCONTOS PAGINA DE PRODUTO*/
+
+.produto .bloco-flags-desconto .desconto-natal-15- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off.png") center top no-repeat;
+    position: absolute;
+    top: 428px;
+    left: 410px;
+    z-index: 9999;
+}
+
+
+
+.produto .bloco-flags-desconto .desconto-natal-20- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off.png") center -51px no-repeat;
+    position: absolute;
+    top: 428px;
+    left: 410px;
+    z-index: 9999;
+}
+
+.produto .bloco-flags-desconto .desconto-natal-25- {
+    font-size: 0;
+    height: 50px;
+    width: 68px;
+    background: url("/arquivos/selos-off.png") center -102px no-repeat;
+    position: absolute;
+    top: 428px;
+    left: 410px;
+    z-index: 9999;
+}
+
+.produto .bloco-flags-desconto .desconto-natal-30- {
+    font-size: 0;
+    height: 51px;
+    width: 68px;
+    background: url("/arquivos/selos-off.png") center -152px no-repeat;
+    position: absolute;
+    top: 428px;
+    left: 410px;
+    z-index: 9999;
+}
+
+.produto .bloco-flags-desconto .desconto-natal-40- {
+    font-size: 0;
+    height: 51px;
+    width: 68px;
+    background: url("/arquivos/selos-off.png") center bottom no-repeat;
+    position: absolute;
+    top: 428px;
+    left: 410px;
+    z-index: 9999;
+}
+
+/*FLAG DESCONTOS PAGINA DE PRODUTO*/
+
+/*FLAG DESCONTOS VITRINE*/
+.desconto-natal-10- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-15- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-20- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-25- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-30- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-35- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-40- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-45- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-50- {
+    font-size: 0 !important;
+    height: 61px !important;
+    width: 70px !important;
+    position: absolute !important;
+    top: 135px !important;
+    right: 5px !important;
+}
+
+.desconto-natal-10- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -7px no-repeat !important;
+}
+
+.desconto-natal-15- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -71px no-repeat !important;
+}
+
+.desconto-natal-20- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -135px no-repeat !important;
+}
+
+.desconto-natal-25- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -201px no-repeat !important;
+}
+
+.desconto-natal-30- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -266px no-repeat !important;
+}
+
+.desconto-natal-35- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -332px no-repeat !important;
+}
+
+.desconto-natal-40- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -398px no-repeat !important;
+}
+
+.desconto-natal-50- {
+    background: url("http://i.imgur.com/G4zkLJw.png") center -529px no-repeat !important;
+}
+/*FLAG DESCONTOS VITRINE*/
+
+
+.desc--a-vista-25--boleto {
+    display: block;
+    background-color: #2FBA20;
+    color: #FFF;
+    text-align: center;
+    padding: 6px 1.5px 6px 1.5px;
+    font-size: 12px;
+}
+
+.produto .frete-gratis {
+    background: url(/arquivos/CLIQUE-AQUI.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px!important;
+    font-size: 0.1px;
+    z-index: 200;
+    left: -115px!important;
+}
+
+
+.shelf .frete-gratis {
+    background: url(/arquivos/CLIQUE-AQUI.gif)!important;
+    width: 94px!important;
+    height: 34px!important;
+    position: absolute!important;
+    top: 0px!important;
+    left: 100!important;
+    right: 0!important;
+    font-size: 0.1px!important;
+    text-align: left!important;
+}
+.home .ofertas-do-mes,
+.resultado-busca .ofertas-do-mes,
+.produto .ofertas-do-mes,
+.marca-teste .ofertas-do-mes {
+    color: #fff;
+      background-color: #228B22;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.compre-e-ganhe{
+     background-color: #00CED1;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+.desconto-a-vista-5-,
+.desconto-5--a-vista,
+.ganhe-viseira{
+background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-10- {
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-15- {
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.desc--5--a-vista---boleto-deposito {
+    font-size: 0.1px;
+    color: #fff;
+    background: url('/arquivos/verde-5-vista.png')no-repeat;
+    width: 100%;
+    margin-bottom: -4px !important;
+}
+
+.desc--5--parcelado---cartao-de-credito {
+    background: url('/arquivos/verde-5-cartao.png')no-repeat;
+    font-size: 0.1px;
+    color: #fff;
+    width: 100%;
+}
+
+.desc--10--a-vista---boleto-deposito {
+    background: url('/arquivos/laranja-10-vista.png')no-repeat;
+    font-size: 0.1px;
+    color: #fff;
+    width: 100%;
+    margin-bottom: -4px !important;
+}
+
+.desc--5--parcelado---cartao-de-credito- {
+    background: url('/arquivos/laranja-5-cartao.png')no-repeat;
+    font-size: 0.1px;
+    color: #fff;
+    width: 100%;
+}
+
+.desc--20--a-vista---boleto-deposito {
+    background: url('/arquivos/vermelho-20-vista.png')no-repeat;
+    bottom: 22px;
+    color: #fff;
+    font-size: 0.1px;
+    height: 14px;
+    left: 6px;
+    position: absolute;
+    width: 180px;
+}
+
+.desc--10--parcelado---cartao-de-credito {
+    background: url('/arquivos/vermelho-10-cartao.png')no-repeat;
+    bottom: 8px;
+    color: #fff;
+    font-size: 0.1px;
+    height: 14px;
+    left: 6px;
+    position: absolute;
+    width: 180px;
+}
+
+.ganhe-viseira{
+    background-color: #454545
+}
+
+.first-flag .novo {
+    left: -614px;
+    z-index: 150;
+}
+
+.second-flag .frete-gratis {
+    display: none !important;
+}
+
+.second-flag .novo {
+    z-index: 200;
+}
+
+.novo {
+    background: url('/arquivos/NOVO.PNG') transparent;
+    width: 105px;
+    height: 33px;
+    font-size: 0.1px;
+    position: absolute;
+    top: -3px;
+    left: -12px;
+}
+
+.motogp {
+    display: inline-block;
+    background: url('/arquivos/selo-motogp.png');
+    width: 74px;
+    height: 44px;
+    font-size: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+/*
+* SECAO:ESTILOS DE INPUTS
+* paginas:todos formularios
+*/
+input[type='number'],
+input[type='password'],
+input[type='text'] {
+    background: url('http://www.rs1.com.br/arquivos/sprite_gradient.png') repeat-x 0 -341px;
+    font-size: 15px;
+    border: solid 1px #d2d2d2;
+    color: #505758;
+    height: 33px;
+    line-height: 33px;
+    /* width:250px; */
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+textarea {
+    font-size: 12px;
+    border: solid 1px #d2d2d2;
+    color: #505758;
+    padding: 0 5px 5px;
+    width: 247px;
+    border-radius: 4px;
+    font-family: Verdana,Geneva,Kalimati,sans-serif;
+}
+
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='text']:focus {
+    border: solid 1px #0074AD;
+}
+
+textarea:focus {
+    border: solid 1px #0074ad;
+}
+
+input[type='number'].erro,
+input[type='text'].erro,
+input[type='text'].error,
+input[type='password'].erro,
+input[type='password'].error {
+    border: solid 1px #FA2704;
+}
+
+    input[type='number'].erro:focus,
+    input[type='text'].erro:focus,
+    input[type='text'].error:focus,
+    input[type='password'].erro:focus,
+    input[type='password'].error:focus {
+        border: solid 1px #FA2704;
+    }
+
+.shipmentWrapper .contentWrapper .quantity input {
+    width: 20px !important;
+}
+
+
+
+/*CEP*/
+.cep-prefixo {
+    text-align: center;
+    width: 45px !important;
+}
+
+.cep-sufixo {
+    text-align: center;
+    width: 35px !important;
+}
+
+
+
+/*Telefone e Data*/
+.DDD,
+.mes,
+.dia {
+    width: 20px !important;
+}
+
+.ano {
+    width: 30px !important;
+}
+
+.telefone {
+    width: 210px;
+}
+
+/*e Estilos para Formul?rios */
+.grp {
+    padding: 5px 0;
+}
+
+    .grp label {
+        font-size: 11px;
+        text-align: left;
+        margin: 0 5px 0 0;
+    }
+
+/* Tabelas */
+table {
+    width: 100%;
+}
+
+    table thead td, table thead th {
+        padding: 6px 18px;
+        background: #ececed;
+        text-align: left;
+        line-height: 14px;
+        font-weight: normal;
+    }
+
+        table thead td, table thead th.product {
+            text-align: left;
+        }
+
+    table tbody td, table tbody th, table tfoot td, table tfoot th {
+        border-bottom: solid 1px #e0e0e0;
+        text-align: center;
+        padding: 6px 18px;
+    }
+
+    table tbody th,
+    table tbody td {
+        border-bottom: solid 1px #e0e0e0;
+        text-align: left;
+        padding: 12px 18px;
+        color: #000;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    table tbody tr:last-child td,
+    table tbody tr:last-child th,
+    table tfoot tr:last-child td,
+    table tfoot tr:last-child th {
+        border: none;
+    }
+
+/* Aviso Erro */
+.aviso-erro {
+    background: #fffcad !important;
+    padding: 7px 7px 7px 50px;
+    border: none !important;
+    line-height: 18px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+    .aviso-erro > p:first-child {
+        margin-bottom: 8px;
+    }
+
+    .aviso-erro * {
+        color: #505758;
+    }
+
+    .aviso-erro li {
+        background: url('http://www.rs1.com.br/arquivos/ico_arrow_erro.png') no-repeat 2px center;
+        padding-left: 12px;
+    }
+
+/* Tag Cloud */
+.buscas-dia p {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+.buscas-dia a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: #B0ADAA;
+}
+
+    .buscas-dia a:hover {
+        background: #DBE9AA;
+        color: #4A9368;
+    }
+
+.busca12 {
+    font-size: 8px;
+}
+
+.busca13 {
+    font-size: 10px;
+}
+
+.busca14 {
+    font-size: 12px;
+}
+
+.busca15 {
+    font-size: 15px;
+}
+
+.busca16 {
+    font-size: 16px;
+}
+
+.busca17 {
+    font-size: 18px;
+}
+
+.busca18 {
+    font-size: 20px;
+}
+
+.busca19 {
+    font-size: 24px;
+}
+
+.busca20 {
+    font-size: 26px;
+}
+
+/* Box Popup */
+.boxPopUp2, .boxPopUp2-overlay {
+    display: none;
+}
+
+.boxPopUp2 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 999999;
+    left: 0;
+}
+
+.boxPopUp2-overlay {
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 999998;
+    cursor: pointer;
+}
+
+.boxPopUp2-wrap {
+    width: 450px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.boxPopUp2-content {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.boxPopUp2-close {
+    background: url('/arquivos/sprite_ui.png') repeat scroll -53px -244px #B70000;
+    box-shadow: 2px 2px 0 #BE3300;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 31px;
+    padding: 12px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    z-index: 5;
+}
+
+    .boxPopUp2-close:hover {
+        background-color: #E23D00;
+    }
+
+    .boxPopUp2-close:active {
+        background-color: #E23D00;
+    }
+
+/* Bread Crumb */
+.bread-crumb {
+    padding-bottom: 5px;
+}
+
+    .bread-crumb li {
+        float: left;
+        background: url('/arquivos/breadcrumb_list.png') no-repeat right 1px;
+        margin-right: 4px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .bread-crumb a:hover {
+        text-decoration: underline;
+    }
+
+    .bread-crumb li.last {
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+
+/*Estrelas*/
+.rating-produto,
+div.rating,
+.rating-vitrine,
+.rating-demonstrativo {
+    background: url('http://www.rs1.com.br/arquivos/ratingStars.png') no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 15px;
+    text-indent: -999em;
+    width: 83px;
+}
+
+.avaliacao5, .a5, .avaliacao10, .a10 {
+    background-position: 0 -60px !important;
+}
+
+.avaliacao15, .a15, .avaliacao20, .a20 {
+    background-position: 0 -44px !important;
+}
+
+.avaliacao25, .a25, .avaliacao30, .a30 {
+    background-position: 0 -29px !important;
+}
+
+.avaliacao35, .a35, .avaliacao40, .a40 {
+    background-position: 0 -14px !important;
+}
+
+.avaliacao45, .a45, .avaliacao50, .a50 {
+    background-position: 0 0 !important;
+}
+
+/*AVALIACAO DA LOJA*/
+.shopReview {
+    padding: 5px;
+    margin: 5px 0px;
+    background-color: #fbfbfb;
+    float: left;
+    width: 48%;
+}
+
+.shopReviewDate {
+    margin-right: 5px;
+    height: 20px;
+    float: left;
+}
+
+    .shopReviewDate em {
+        font-style: italic !important;
+    }
+
+.shopReviewRate {
+    border-left: 1px solid lightgray;
+    float: left;
+}
+
+.shopReview:last-child {
+    float: right;
+}
+
+.shopReview ul {
+}
+
+.shopReview li:first-child {
+    padding-left: 5px;
+    font-size: 15px;
+    color: #3276b1;
+}
+
+.shopReview li {
+    padding-left: 15px;
+    line-height: 1.3;
+    font-size: 13px;
+}
+
+/*
+* SECAO:Header
+* paginas:todas
+*/
+/*Estrutura do header*/
+.headerTpl {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+
+    .headerTpl .headerColumn {
+        float: left;
+    }
+
+    .headerTpl .rightColumn {
+        padding-top: 5px;
+        width: 200px;
+        float: right;
+    }
+
+    .headerTpl .leftColumn {
+        margin: 5px 10px 0px 0;
+        height: 77px;
+        width: auto;
+    }
+
+        .headerTpl .leftColumn img {
+            height: 76px;
+            float: left;
+        }
+
+.logo {
+    height: auto;
+    width: 140px;
+    float: left;
+}
+
+    .logo img {
+        height: 76px;
+        width: 125px;
+    }
+
+.ebitHead {
+    height: auto;
+    width: 77px;
+    float: left;
+}
+
+.headerTpl .mainColumn {
+    width: 550px;
+}
+
+/*Logo*/
+.headerTpl h1 {
+    background: url('http://www.rs1.com.br/arquivos/logo.png') center center no-repeat;
+    display: block;
+    height: 90px;
+    margin: 5px 0 0;
+    text-indent: -9999px;
+    width: 179px;
+}
+
+    .headerTpl h1 a {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+/*Navegacao Superior*/
+.navTop {
+    background: #282421;
+    display: none;
+}
+
+    .navTop li {
+        float: left;
+        padding: 0 5px;
+    }
+
+    .navTop a {
+        color: #FFF;
+        padding: 7px 15px 10px;
+        display: block;
+    }
+
+        .navTop a:hover {
+            background: url('http://www.rs1.com.br/arquivos/sprite_gradient.png') repeat-x 0 -197px;
+            text-decoration: none;
+        }
+
+    .navTop ul {
+        float: right;
+    }
+
+        .navTop ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+    .navTop .phoneWrapper {
+        float: left;
+        margin: 0;
+    }
+
+        .navTop .phoneWrapper span {
+            color: #FFFFFF;
+            float: left;
+            padding: 5px 0 0 5px;
+        }
+
+        .navTop .phoneWrapper .text {
+            font-size: 13px;
+        }
+
+        .navTop .phoneWrapper .phone {
+            font-size: 13px;
+        }
+
+        .navTop .phoneWrapper .ico {
+            float: left;
+            margin: 3px;
+            width: 17px;
+            height: 17px;
+            background: url('http://www.rs1.com.br/arquivos/sprite_header.png') -20px 0 no-repeat;
+        }
+
+/*Mensagem para o usuario*/
+.headerTpl .userText {
+    line-height: 40px;
+    height: 40px;
+    width: 80%;
+    float: left;
+}
+
+    .headerTpl .userText .ajax-content-loader {
+        float: left;
+        height: auto;
+        width: 100%;
+    }
+
+    .headerTpl .userText p {
+        float: left;
+        margin-bottom: 0 !important;
+    }
+
+    .headerTpl .userText a {
+        border: solid 1px #d4d4d4;
+        text-decoration: none;
+        padding: 3px 10px;
+        margin: 0 0 0 5px;
+    }
+
+
+        .headerTpl .userText a:hover {
+            border-color: #0063a2;
+            cursor: pointer;
+            color: #000;
+        }
+
+/*User Nav*/
+.userNav {
+    width: 107px;
+    float: right;
+    text-align: center;
+}
+
+    .userNav li {
+        font-size: 12px;
+        box-sizing: padding-box;
+        padding: 3.2px 5px;
+    }
+
+        .userNav li a {
+            text-decoration: none;
+        }
+
+/*
+* SECAO:CARRINHO
+* paginas:todas
+*/
+
+.headerMessage {
+    margin: 10px 20px;
+    height: 20px;
+}
+
+    .headerMessage .ico {
+        float: left;
+        margin: 0 5px 0 0;
+        width: 13px;
+        height: 20px;
+        background: url('http://www.rs1.com.br/arquivos/sprite_header.png') no-repeat 0 0;
+        display: block;
+    }
+
+    .headerMessage .span {
+        float: left;
+        color: #AEAEAE;
+        font-size: 11px;
+    }
+
+/*CARRINHO SMART CHECKOUT*/
+.rightColumn a:hover .cartIcon {
+    background-position: -80px 0;
+}
+
+.cartInfoWrapper {
+    margin-top: 1px;
+    /*background:url('http://www.rs1.com.br/arquivos/sprite_gradient.png') repeat-x 0 -376px;*/
+    border: solid 1px #d4d4d4;
+    text-decoration: none;
+    padding: 2.6px;
+    height: 28px;
+}
+
+    .cartInfoWrapper:hover {
+        background: #0083B7;
+        border-color: #0063a2;
+        text-decoration: none;
+    }
+
+        .cartInfoWrapper:hover li {
+            color: #FFF;
+        }
+
+    .cartInfoWrapper strong, em {
+        font-weight: normal;
+        font-style: normal !important;
+    }
+
+    .cartInfoWrapper ul {
+        float: left;
+        padding: 7.4px;
+    }
+
+        .cartInfoWrapper ul:hover {
+            color: #000;
+        }
+
+    .cartInfoWrapper li {
+        font-size: 12px;
+        float: left;
+    }
+
+    .cartInfoWrapper .amount-items:after {
+        content: " |";
+    }
+
+    .cartInfoWrapper .total-cart {
+        margin-left: 5px;
+    }
+
+.cartIcon {
+    margin: 9px 0 0 12px;
+    height: 20px;
+    width: 25px;
+    background: url(http://www.rs1.com.br/arquivos/sprite_header.png) no-repeat -50px 0;
+    float: left;
+}
+
+.cartWrapper .title,
+.cartWrapper .amount-products,
+.cartWrapper .amount-kits,
+.cartWrapper #MostraTextoXml5 {
+    display: none;
+}
+
+/*CONTADOR*/
+.countdownWrapper {
+    margin: 10px 0 0 0;
+    padding: 25px 0;
+    float: left;
+    width: 100%;
+    background-color: #333333;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .countdownWrapper > p {
+        padding: 0 0 22px 0;
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        float: left;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+        .countdownWrapper > p span {
+            color: #F59800;
+        }
+
+.countdown {
+    margin: 0 20px;
+    padding: 0 0 25px 0;
+    float: left;
+    width: 40%;
+}
+
+body.showCount2 .countdown {
+    margin: 0 auto;
+    float: none;
+    padding: 0 0 25px 0;
+    width: 40%;
+}
+
+.countdown li {
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 0 5px;
+    float: left;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #fff;
+    border: solid #000 1px;
+    position: relative;
+}
+
+.days:after {
+    content: "Dias";
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 26px;
+    font-size: 16px;
+}
+
+.hours:after {
+    content: "Horas";
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 16px;
+}
+
+.minutes:after {
+    content: "Minutos";
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.seconds:after {
+    content: "Segundos";
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    font-size: 16px;
+}
+
+.countdown li.seperator, .countdown li p {
+    display: none;
+}
+
+.countdown li p {
+    font-weight: 600;
+    font-size: initial;
+}
+
+.countdownlink {
+    margin: 0px 20px 0 0;
+    padding: 15px 10px;
+    text-align: center;
+    border: 2px solid #000;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    background-color: #6AA84F;
+    font-weight: 600;
+    font-size: 16px;
+    width: 50%;
+}
+
+body.showCount2 .countdownlink {
+    display: none;
+}
+
+/*CONTADOR*/
+
+/*
+* SECAO:CONTROLE DE BUSCA
+* paginas:todas
+*/
+.searchWrapper {
+    margin-top: -1px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+input[type='text'].fulltext-search-box {
+    padding: 0 10px;
+    box-sizing: padding-box;
+    width: 100%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='text'].fulltext-search-box {
+        padding: 0 0 0 5px;
+        box-sizing: padding-box;
+    }
+}
+
+.btn-buscar {
+    background: url('/arquivos/sprite_header.png') 0 -26px no-repeat;
+    height: 23px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 24px;
+    border: 0;
+    text-indent: -999em;
+    color: transparent;
+    font-size: 0.1px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+    .btn-buscar:hover {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .btn-buscar:active {
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+    }
+
+.searchWrapper legend,
+.searchWrapper label,
+.searchWrapper select {
+    display: none;
+}
+
+/*
+* SECAO:TIPBAR
+* paginas:todas
+*/
+.tipBarWrapper .box-banner {
+    float: left;
+}
+
+a.tooltips {
+    position: relative;
+    display: inline;
+}
+
+    a.tooltips span {
+        padding: 5px;
+        position: absolute;
+        width: auto;
+        color: #FFFFFF;
+        background: #000000;
+        /*height: 30px;*/
+        line-height: 25px;
+        text-align: center;
+        visibility: hidden;
+        border-radius: 6px;
+    }
+
+        a.tooltips span:after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -8px;
+            width: 0;
+            height: 0;
+            border-bottom: 8px solid #000000;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+        }
+
+a:hover.tooltips span {
+    visibility: visible;
+    opacity: 0.9;
+    top: 30px;
+    left: 50%;
+    margin-left: -76px;
+    z-index: 999;
+}
+
+/*
+* SECAO: AUTO COMPLETE
+* paginas:todas
+*/
+.ui-autocomplete {
+    font-size: 14px;
+    text-align: left;
+    width: 550px !important;
+    border: 1px solid #CCCCCC;
+    background-color: #FFF;
+}
+
+    .ui-autocomplete a {
+        padding: 5px 0;
+        cursor: pointer;
+        display: block;
+        height: 100%;
+        line-height: 25px;
+        text-decoration: none;
+        min-height: 25px;
+    }
+
+.ui-state-hover {
+    background: #FDE3A7;
+    color: #000;
+}
+
+.ui-menu-item {
+    clear: both;
+    display: block;
+    margin: 10px 0;
+    padding: 2px 0;
+}
+
+.ui-autocomplete img {
+    float: left;
+    height: 25px;
+    padding: 0 16px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+/*
+* SECAO:FOOTER
+* paginas:todas
+*/
+.historyTpl {
+    display: none !important;
+}
+
+.footerTpl {
+    background-color: #333;
+}
+
+
+/*telefones*/
+.topLinksWrapper {
+    padding: 30px 0 0;
+}
+
+.footerStamp span {
+    color: #FFF;
+    font-size: 14px;
+    float: left;
+}
+
+.footerStamp .phone {
+    font-size: 20px;
+}
+
+.footerStamp .ddd {
+    font-size: 13px;
+    padding: 4px 3px 0;
+}
+
+.footerStamp .time {
+    clear: left;
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px;
+}
+
+.footerStamp .ico {
+    float: left;
+    width: 38px;
+    height: 39px;
+    background: url('/arquivos/sprite_ui.png') no-repeat 0 -42px;
+    margin: 0 25px 0 55px;
+}
+
+.footerStamp.emailWrapper .ico {
+    background-position: -40px -44px;
+}
+
+.footerStamp.phoneWrapper .ico {
+    background-position: -80px -44px;
+}
+
+.footerStamp .text {
+    padding: 10px 0;
+}
+
+#DigiCertClickID_5JLaAxiq > span {
+    text-indent: -999em !important;
+}
+
+.certificateStamps dd {
+    float: left;
+    margin: 0 4px 0;
+}
+
+/*Area de texto*/
+.textWrapper {
+    background-color: #3b3b3b;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 30px 0 20px;
+    color: #b1b1b1;
+}
+
+.textColumn {
+    float: left;
+    width: 690px;
+}
+
+    .textColumn h3 {
+        color: #626262;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        border-bottom: solid 1px #606060;
+        margin: 0 0 10px 0;
+        padding: 0 0 10px 0;
+    }
+
+        .textColumn h3 .ico {
+            float: left;
+            width: 66px;
+            height: 40px;
+            background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat -129px 0;
+            margin: 0 10px 0 0;
+        }
+
+        .textColumn h3 span {
+            float: left;
+            margin: 5px 0 0 0;
+        }
+
+    .textColumn p {
+        line-height: 20px;
+        font-size: 12px;
+        margin: 0 0 20px 0;
+    }
+
+    .textColumn a {
+        color: #adadad;
+        text-decoration: none;
+    }
+
+        .textColumn a:hover {
+            text-decoration: underline;
+        }
+
+/*Facebook Likebox*/
+.facebookLikeColumn {
+    width: 235px;
+    background-color: #333333;
+    border: solid 1px #606060;
+    float: right;
+    min-height: 200px;
+}
+
+/*Coluna de Links*/
+.linksColumn .paddingFix {
+    padding: 0 0 0 20px;
+}
+
+.linksColumn:first-child .paddingFix {
+    padding: 0;
+}
+
+.linksColumn dt {
+    padding: 5px 0 10px;
+    display: block;
+    border-bottom: solid 1px #FFF;
+    color: #FFF;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+    .linksColumn dt a {
+        padding: 0;
+        display: block;
+        color: #FFF;
+        font-size: 14px;
+        margin-top: -4px;
+    }
+
+.linksColumn a {
+    color: #adadad;
+    font-size: 12px;
+    display: block;
+    line-height: 18px;
+}
+
+/*Selos de Pagamento*/
+.paymanetStamps dd {
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+}
+
+    .paymanetStamps dd:first-child {
+        margin: 0;
+    }
+
+.paymanetStamps .subTitle {
+    cursor: text;
+    float: left;
+    width: 100%;
+    color: #FFF;
+}
+
+.paymanetStamps .visa,
+.paymanetStamps .master,
+.paymanetStamps .dinners,
+.paymanetStamps .elo,
+.paymanetStamps .hsbc,
+.paymanetStamps .hipercard,
+.paymanetStamps .amex,
+.paymanetStamps .aura,
+.paymanetStamps .bradesco,
+.paymanetStamps .itau,
+.paymanetStamps .bb,
+.paymanetStamps .banrisul,
+.paymanetStamps .americanExpress,
+.paymanetStamps .boleto {
+    font-size: 0.1px;
+}
+
+    .paymanetStamps .visa:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -42px 0;
+        float: left;
+    }
+
+    .paymanetStamps .master:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -84px 0;
+        float: left;
+    }
+
+    .paymanetStamps .dinners:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -126px 0;
+        float: left;
+    }
+
+    .paymanetStamps .elo:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -294px 0;
+        float: left;
+    }
+
+    .americanExpress::before {
+    margin-right: 10px;
+    height: 26px;
+    width: 42px;
+    content: ""!important;
+    background: transparent url(/arquivos/IMG_12122016_102847.png) no-repeat scroll 0% 0% !important;
+    float: left;
+}
+
+    /*.paymanetStamps .hipercard:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -210px 0;
+        float: left;
+    }*/
+
+    .paymanetStamps .amex:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -168px 0;
+        float: left;
+    }
+
+    .paymanetStamps .aura:before {
+        height: 20px;
+        width: 42px;
+        content: "";
+        background: url(/arquivos/cartoes-pagseguro.gif) no-repeat -252px 0;
+        float: left;
+    }
+
+.footerTpl .firm {
+    text-align: center;
+    background-color: #3B3B3B;
+    padding: 12px 0 0px 0;
+    color: #EDEDED;
+    font-size: 10px;
+}
+
+/* Copyryght */
+.copyrightTpl {
+    background: url('/arquivos/sprite_gradient.png') repeat-x 0 0;
+    border: solid 1px #b36200;
+    border-left: none;
+    border-right: none;
+    height: 36px;
+    margin: 30px 0 0 0;
+}
+
+    .copyrightTpl p {
+        padding: 10px 0 0 0;
+        text-align: left;
+        color: #FFF;
+    }
+
+    .copyrightTpl .middleContainer {
+        position: relative;
+    }
+
+    .copyrightTpl .designedByQuatroDigital {
+        display: block;
+        float: right;
+        position: absolute;
+        right: 110px;
+        top: 3px;
+    }
+
+    .copyrightTpl .poweredByVtex {
+        display: block;
+        float: right;
+        position: absolute;
+        top: 3px;
+        right: 0;
+    }
+
+    .copyrightTpl .rs1Logo {
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+a.footerExternalLinks[href='http://www.quatrodigital.com.br'] {
+    width: 93px;
+    height: 31px;
+    background: url('http://www.rs1.com.br/arquivos/design_by_quatro_digital.png');
+}
+
+a.footerExternalLinks[href='http://www.vtex.com.br'] {
+    width: 90px;
+    height: 28px;
+    background: url('http://www.rs1.com.br/arquivos/powered_by_vtex.png');
+}
+
+/*
+* SECAO:SUPER MENU
+* paginas:todas
+*/
+.tpl-menu {
+    height: 43px;
+    width: 100%;
+    margin: 5px 0 4px;
+    position: relative;
+    float: left;
+}
+
+    .tpl-menu > ul:before, .tpl-menu > ul:after {
+        content: "";
+        display: table;
+    }
+
+    .tpl-menu > ul:after {
+        clear: both;
+    }
+
+    .tpl-menu > ul {
+        *zoom: 1;
+    }
+
+    .tpl-menu > ul {
+        width: 100%;
+    }
+
+.sp-container {
+    width: 14.19%;
+    float: left;
+    position: relative;
+    background: #FFA500;
+    margin: 0 0 0 1px;
+    text-align: center;
+}
+
+    .sp-container:first-child {
+        margin: 0;
+    }
+
+    .sp-container:hover {
+    }
+
+    .sp-container > a {
+        height: 40px;
+        width: 100%;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        line-height: 40px;
+        text-decoration: none;
+        position: relative;
+        float: left;
+        z-index: 200;
+    }
+
+    .sp-container.active > a {
+        background-color: #FFFFFF;
+        border: 3px solid #0074AD;
+        color: #0074AD;
+        margin: -3px;
+        border-bottom: 0;
+    }
+
+.sp-container-6.active > a {
+    border: 3px solid #0074AD;
+}
+
+/* Submenu */
+.sp-container .sp-submenu-wrapper {
+    padding: 20px;
+    border: 3px solid #0074AD;
+    position: absolute;
+    z-index: 100;
+    background-color: #FFF;
+    left: -3px;
+    top: 37px;
+    display: none;
+    width: 680px;
+}
+
+.sp-container .sp-submenu {
+    float: left;
+    min-height: 150px;
+    width: auto;
+}
+
+.menu-xml-container {
+    float: left;
+    margin: 0 5px;
+    width: 148px;
+}
+
+    .menu-xml-container dt,
+    .menu-xml-container dd {
+        color: #003D2C;
+        line-height: 16px;
+    }
+
+    .menu-xml-container a {
+        color: #333333;
+        display: block;
+        font-size: 12px;
+        padding: 3px 10px;
+        text-decoration: none;
+    }
+
+        .menu-xml-container a:hover {
+            background-color: #ececec;
+        }
+
+    .menu-xml-container dt {
+        margin: 10px 0;
+    }
+
+        .menu-xml-container dt,
+        .menu-xml-container dt a {
+            background-color: #0074AD;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 24px;
+        }
+
+            .menu-xml-container dt a:hover {
+                background-color: #f98d04;
+            }
+
+            .menu-xml-container,
+            .menu-xml-container dl,
+            .menu-xml-container dt,
+            .menu-xml-container dd,
+            .menu-xml-container dt a {
+                position: static;
+            }
+
+
+
+/*prateleira-menu*/
+.sp-collection {
+    float: right;
+    margin: 0 15px 0 5px;
+    width: 180px;
+}
+
+.sp-collection-title {
+    background: #6c8f01;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 0 10px;
+    display: none;
+}
+
+.sp-collection .shelf-wrapper {
+}
+
+
+
+/*prateleira-menu*/
+.sp-collection-container {
+    text-align: left;
+    position: relative;
+}
+
+    .sp-collection-container h3 {
+        /*height:35px;
+	
+	*/
+        line-height: 16px;
+        overflow: hidden;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+        .sp-collection-container h3 a {
+            color: #333333;
+        }
+
+    .sp-collection-container a:hover {
+        text-decoration: none;
+    }
+
+    .sp-collection-container .quickViewLink .quickViewTxt {
+        color: #FFF;
+        font-size: 9px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+
+    .sp-collection-container .quickViewLink .icoQuickView {
+        display: block;
+        background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat -80px -50px;
+        width: 25px;
+        height: 25px;
+        margin: 5px auto;
+    }
+
+    .sp-collection-container .shelfImageWrapper {
+        margin: 0 auto;
+        width: 180px;
+        height: 180px;
+    }
+
+        .sp-collection-container .shelfImageWrapper img {
+            max-width: 180px;
+            max-height: 180px;
+            margin: 0 auto;
+        }
+
+    .sp-collection-container .shelfPriceWrapper {
+        clear: both;
+        display: block;
+        margin: 5px 0 0;
+    }
+
+        .sp-collection-container .shelfPriceWrapper span {
+            line-height: 18px;
+            font-size: 11px;
+        }
+
+        .sp-collection-container .shelfPriceWrapper .bestPrice {
+            font-weight: bold;
+            color: #0074ad;
+            font-size: 13px;
+        }
+
+        .sp-collection-container .shelfPriceWrapper .shelfOldPriceWrapper {
+            text-decoration: line-through;
+            display: block;
+            font-size: 9px;
+            color: #999999;
+        }
+
+.sp-submenu-wrapper-seucorpo .menu-xml-container-2,
+.sp-submenu-wrapper-suamoto .menu-xml-container-2 {
+    right: 0;
+    position: absolute;
+}
+
+.sp-submenu-wrapper-seucorpo .menu-xml-container-2,
+.sp-submenu-suamoto .menu-xml-container-2 {
+    padding-right: 20px;
+}
+
+    .sp-submenu-seucorpo .off-road dt a,
+    .sp-submenu-suamoto .menu-xml-container-2 dt a {
+        background: #db6619 !important;
+    }
+
+.sp-submenu-wrapper-seucorpo,
+.sp-submenu-wrapper-suamoto {
+    width: 500px !important;
+    position: relative;
+    left: -144px !important;
+}
+
+.sp-submenu-seucorpo .menu-xml-container-1:after {
+    height: 456px;
+    float: left;
+    top: 0;
+    right: 190px;
+    position: absolute;
+    border: 1px solid #eee;
+}
+
+.sp-submenu-suamoto .menu-xml-container-1:after {
+    height: 242px;
+    float: left;
+    top: 0;
+    right: 190px;
+    position: absolute;
+    border: 1px solid #eee;
+}
+
+.sp-collection-container .shelfPriceWrapper strong {
+    color: #CC6600;
+}
+
+.sp-collection-container .shelfNewPriceWrapper {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.sp-collection-container .installmentWrapper {
+    display: block;
+}
+
+.sp-collection-container .saveAmount {
+    color: #0074AD;
+}
+
+.sp-collection-container .brandWrapper {
+    margin: 5px 0;
+}
+
+    .sp-collection-container .brandWrapper a {
+        text-decoration: underline;
+        font-size: 11px;
+    }
+
+
+
+/*Botoes*/
+.sp-collection-container .quickViewLink {
+    position: absolute;
+    top: 50px;
+    left: 39px;
+}
+
+.sp-collection-container:hover .quickViewLink {
+    top: 55px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.sp-collection-container .quickViewLink {
+    box-shadow: 0 0 2px rgba(255,255,255,1) inset;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat 0 -90px #FFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 0 0 43px;
+    text-align: left;
+    text-shadow: -1px -1px 0 #CC6633;
+    width: 76px;
+    border: solid 1px #B97627;
+    opacity: 0.0;
+    filter: alpha(opacity=00);
+    -webkit-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -moz-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -ms-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -o-transition: opacity 200ms ease-in, top 100ms ease-in;
+    transition: opacity 200ms ease-in, top 100ms ease-in;
+}
+
+    .sp-collection-container .quickViewLink:hover {
+        box-shadow: 0 0 3px rgba(255,255,255,1) inset;
+        background-position: 0 -130px;
+        text-shadow: -1px -1px 0 #333;
+        border: solid 1px #494849;
+    }
+
+    .sp-collection-container .quickViewLink:active {
+        box-shadow: 0 0 1px rgba(255,255,255,1) inset;
+        text-shadow: 0 0 0 #FFF;
+    }
+
+.sp-collection-container .shelfButtonWrapper {
+    position: absolute;
+    top: 105px;
+    left: 39px;
+    opacity: 0.0;
+    filter: alpha(opacity=00);
+    -webkit-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -moz-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -ms-transition: opacity 200ms ease-in, top 100ms ease-in;
+    -o-transition: opacity 200ms ease-in, top 100ms ease-in;
+    transition: opacity 200ms ease-in, top 100ms ease-in;
+}
+
+.sp-collection-container:hover .shelfButtonWrapper {
+    position: absolute;
+    top: 95px;
+    left: 39px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.ie8 .sp-collection-container .shelfButtonWrapper {
+    display: none;
+}
+
+.ie8 .sp-collection-container:hover .shelfButtonWrapper {
+    display: block;
+}
+
+.sp-collection-container a.btn-add-buy-button-asynchronous {
+    border: solid 1px #B97627;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat 0 -169px #FFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 0 0 43px;
+    position: relative;
+    text-align: left;
+    text-shadow: -1px -1px 0 #CC6633;
+    width: 76px;
+}
+
+    .sp-collection-container a.btn-add-buy-button-asynchronous:hover {
+        background-position: 0 -209px;
+        text-shadow: -1px -1px 0 #333;
+        border: solid 1px #494849;
+    }
+
+    .sp-collection-container a.btn-add-buy-button-asynchronous:active {
+        text-shadow: 0 0 0 #FFF;
+    }
+
+.sp-collection-container div.buy-button-asynchronous span {
+    background: #C0C0C0;
+    padding: 2px;
+    text-align: center;
+    color: #FFF;
+    display: block;
+    margin-top: 5px;
+}
+
+.sp-collection-container .amount-in-cart {
+    display: none;
+}
+
+.sp-collection-container .outOfStock {
+    background-color: #333;
+    color: #FFF;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 180px;
+}
+
+.sp-collection-container .shelfBuyButtomWrapper .wrapper-buy-button-asynchronous > .buy-button-asynchronous {
+    left: -39px;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 196px;
+}
+
+.sp-container-4 .sp-submenu-wrapper {
+    width: 480px;
+}
+
+/*icones dos botoes*/
+.sp-container-0 > a {
+    background-position: -10px -685px;
+}
+
+.sp-container-1 > a {
+    background-position: -5px 7px;
+}
+
+.sp-container-2 > a {
+    background-position: -10px -128px;
+}
+
+.sp-container-3 > a {
+    background-position: -5px -265px;
+}
+
+.sp-container-4 > a {
+    background-position: 0px -550px;
+}
+
+.sp-container-5 > a {
+    background-position: -2px -405px;
+}
+
+.sp-container-6 > a {
+    background: none;
+}
+
+.sp-container-6 {
+    background: red;
+}
+
+.sp-capacetes:hover {
+}
+
+.sp-item-6 {
+    box-sizing: padding-box;
+}
+
+.sp-container-6 .sp-submenu-wrapper-6 {
+    left: -582.5px !important;
+    display: none !important;
+}
+
+/*icones dos botoes*/
+.sp-container-0.active > a {
+    background-position: 3px -750px;
+}
+
+.sp-container-1.active > a {
+    background-position: 0 -61px;
+}
+
+.sp-container-2.active > a {
+    background-position: 0 -198px;
+}
+
+.sp-container-3.active > a {
+    background-position: 0 -341px;
+}
+
+.sp-container-4.active > a {
+    background-position: 0 -621px;
+}
+
+.sp-container-5.active > a {
+    background-position: 0 -482px;
+}
+
+.tpl-menu .sp-container .sp-submenu-wrapper-comprepormarcas {
+    width: 950px;
+    margin: 0 0 0 -17px;
+}
+
+
+
+/*MENU CONTAINER CAPACETES*/
+.sp-container-0 .sp-submenu-wrapper-capacetes {
+    width: 630px;
+}
+
+    .sp-container-0 .sp-submenu-wrapper-capacetes .sp-submenu-capacetes {
+        width: 650px;
+    }
+
+
+
+/*MENU CONTAINER  CAPACETES*/
+
+/*MENU CONTAINER MARCAS*/
+.sp-container-5 .sp-submenu-wrapper-marcas {
+    width: 950px;
+    margin-left: -274px !important;
+}
+
+    .sp-container-5 .sp-submenu-wrapper-marcas .sp-submenu-marcas {
+        width: 950px;
+    }
+
+    .sp-container-5 .sp-submenu-wrapper-marcas .sp-collection-5 {
+        display: none;
+    }
+
+
+
+/*MENU CONTAINER MARCAS*/
+
+/*MENU CONTAINER OUTLET*/
+.sp-container-4 .sp-submenu-wrapper-outlet {
+    left: -559px !important;
+    width: 680px;
+}
+
+
+
+/*MENU CONTAINER OUTLET*/
+
+.highlightWrapper .desconto-a-vista-909- {
+    width: 100%;
+    font-size: 0.1px;
+    float: left;
+}
+
+    .highlightWrapper .desconto-a-vista-909-:after {
+        margin-top: 1px;
+        line-height: 27px;
+        content: "Desconto \00E0  Vista 9%";
+        color: #FFF;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #f46721;
+        float: left;
+        width: 100%;
+    }
+
+
+
+/*HOVER DE MUDANCA DE IMAGEM VITRINE*/
+.shelfImageWrapper .shelfImage-1 {
+    float: left;
+}
+
+.shelfImageWrapper:hover .shelfImage-1 {
+    opacity: 1;
+}
+
+.shelfImageWrapper .shelfImage-2 {
+    position: absolute;
+    top: 5px;
+    float: left;
+    opacity: 0;
+    transition: all 100ms linear;
+}
+
+.shelfImageWrapper:hover .shelfImage-2 {
+    opacity: 1;
+}
+
+
+
+/*
+* SECAO:SUPER MENU
+* paginas:todas
+*/
+#container {
+    margin-top: 204px;
+    -webkit-transition: margin-top 500ms linear;
+    -moz-transition: margin-top 500ms linear;
+    -o-transition: margin-top 500ms linear;
+    transition: margin-top 500ms linear;
+}
+
+.force-margin {
+    margin-top: 480px !important;
+}
+
+/*
+* SECAO:DISCLAIMERS
+* paginas:home, resultado de busca, departamento e categoria
+*/
+.disclaimerContent {
+    float: left;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*paginacao*/
+.cycle-pager {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 150;
+    width: 100%;
+    text-align: center;
+}
+
+    .cycle-pager span {
+        font-size: 30px;
+        color: #383431;
+        cursor: pointer;
+        -webkit-transition: all 250ms ease-in;
+        -moz-transition: all 250ms ease-in;
+        -o-transition: all 250ms ease-in;
+        transition: all 250ms ease-in;
+    }
+
+    .cycle-pager .cycle-pager-active {
+        color: #f98b04;
+    }
+
+/*Navegacao*/
+.cycle-prev,
+.cycle-next {
+    width: 30px;
+    height: 43px;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat 0 0;
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    z-index: 150;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+
+.cycle-prev {
+    left: 5px;
+    background-position: -40px 0;
+}
+
+.cycle-next {
+    right: 5px;
+}
+
+.cycle-prev:hover {
+    left: 3px;
+}
+
+.cycle-next:hover {
+    right: 3px;
+}
+
+.cycle-prev:hover,
+.cycle-next:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.cycle-prev:active,
+.cycle-next:active {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*
+* SECAO:FLAGS
+* paginas:todas as paginas que exibem algum tipo de selo
+*/
+
+/*
+* SECAO:VITRINE
+* paginas:paginas com vitrine
+* ID:4f33bac7-0999-4e63-9ccb-276fa32f4ce0
+*/
+.shelf {
+    position: relative;
+    clear: both;
+}
+
+    .shelf h2 {
+        color: #0074ad;
+        border-bottom: 1px solid #c7c7c7;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: 38px;
+        padding: 0 15px;
+    }
+
+    .shelf ul {
+        padding: 15px 0 0 0;
+    }
+
+        .shelf ul + ul {
+            border-top: none;
+        }
+
+    /* Alterado por BRUNO em 04/06/2014 */
+    .shelf li {
+        border: 1px solid rgba(0,0,0,0.2);
+        float: left;
+        margin: 3px 0 0 3px;
+        min-height: 290px;
+        padding: 4px 4px;
+        position: relative;
+        width: 235px;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+        -o-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
+    }
+
+        /*.shelf li {	
+	border:1px solid transparent;	
+	float:left;	
+	margin:3px 0;	
+	min-height:290px;
+  padding:10px 4px;	
+	position:relative;	
+	width:185px;	
+	border-radius:3px;	
+	-webkit-transition:all 200ms ease-in;	
+	-moz-transition:all 200ms ease-in;	
+	-o-transition:all 200ms ease-in;	
+	transition:all 200ms ease-in;
+}
+
+*/
+        /* Alterado por BRUNO em 11/03/2014 */
+        .shelf li:hover {
+            border: 1px solid rgba(0,0,0,0.7);
+        }
+
+        /*.shelf li:hover {
+	border:solid 1px #cecece;
+}
+
+*/
+
+        .shelf li:nth-child(9) {
+            margin-left: 0;
+        }
+
+        .shelf li.last {
+            margin-right: 0px;
+        }
+
+        .shelf li:first-child {
+            margin-left: 0;
+        }
+
+.resultado-busca .shelf li:first-child {
+    margin: 0 !important;
+}
+
+.shelf h3 {
+    font-size: 12px;
+    font-weight: normal;
+    height: 62px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.yv-review-quickreview {
+    height: 20px;
+    width: 100%;
+    float: left;
+}
+
+.shelf a:hover {
+    text-decoration: none;
+}
+
+.shelf .quickViewLink .quickViewTxt {
+    color: #FFF;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.shelf .quickViewLink .icoQuickView {
+    display: block;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat -80px -50px;
+    width: 25px;
+    height: 25px;
+    margin: 5px auto;
+}
+
+.shelf .shelfImageWrapper {
+    margin: 0 auto 10px;
+}
+
+    .shelf .shelfImageWrapper img {
+        margin: 0 auto;
+    }
+
+.shelf .shelfPriceWrapper {
+    clear: both;
+    display: block;
+    height: 80px;
+    margin: 5px 0 0;
+}
+
+    .shelf .shelfPriceWrapper span {
+        line-height: 18px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .shelf .shelfPriceWrapper .bestPrice {
+        font-weight: bold;
+        color: #0074ad;
+        font-size: 13px;
+    }
+
+    .shelf .shelfPriceWrapper .shelfOldPriceWrapper {
+        text-decoration: line-through;
+        display: block;
+        font-size: 9px;
+        color: #999999;
+    }
+
+    .shelf .shelfPriceWrapper strong {
+        color: #CC6600;
+    }
+
+.shelf .shelfNewPriceWrapper {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.shelf .installmentWrapper {
+    display: block;
+}
+
+.shelf .saveAmount {
+    color: #0074AD;
+}
+
+.shelf .brandWrapper {
+    margin: 5px 0;
+}
+
+    .shelf .brandWrapper a {
+        text-decoration: underline;
+        font-size: 11px;
+    }
+
+        .shelf .brandWrapper a:hover {
+            text-decoration: none;
+        }
+
+
+
+
+/*Botoes*/
+.shelf .quickViewLink {
+    position: absolute;
+    top: 50px;
+    left: 39px;
+}
+
+.shelf li:hover .quickViewLink {
+    top: 55px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.shelf .quickViewLink {
+    box-shadow: 0 0 2px rgba(255,255,255,1) inset;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat 0 -90px #FFF;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 0 0 43px;
+    text-align: left;
+    text-shadow: -1px -1px 0 #CC6633;
+    width: 76px;
+    border: solid 1px #B97627;
+    opacity: 0.0;
+    filter: alpha(opacity=00);
+    -webkit-transition: opacity 200ms ease-in,top 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in,top 200ms ease-in;
+    -o-transition: opacity 200ms ease-in,top 200ms ease-in;
+    transition: opacity 200ms ease-in,top 200ms ease-in;
+}
+
+    .shelf .quickViewLink:hover {
+        box-shadow: 0 0 3px rgba(255,255,255,1) inset;
+        background-position: 0 -130px;
+        text-shadow: -1px -1px 0 #333;
+        border: solid 1px #494849;
+    }
+
+    .shelf .quickViewLink:active {
+        box-shadow: 0 0 1px rgba(255,255,255,1) inset;
+        text-shadow: 0 0 0 #FFF;
+    }
+
+
+
+
+/*.shelf .shelfButtonWrapper {
+	
+	-webkit-transition:opacity 200ms ease-in, top 100ms ease-in;
+	
+	 -moz-transition:opacity 200ms ease-in, top 100ms ease-in;
+	
+	 -ms-transition:opacity 200ms ease-in, top 100ms ease-in;
+	
+	 -o-transition:opacity 200ms ease-in, top 100ms ease-in;
+	
+	 transition:opacity 200ms ease-in, top 100ms ease-in;
+	
+
+}
+
+
+
+*/
+/*.shelf li:hover .shelfButtonWrapper {
+	
+	position: absolute;
+	
+	top: 95px;
+	
+	left: 39px;
+	
+	opacity:1;
+	
+	 filter:alpha(opacity=100);
+	
+
+}
+
+
+
+*/
+.shelf a.btn-add-buy-button-asynchronous {
+    border: solid 1px #B97627;
+    background: url('http://www.rs1.com.br/arquivos/sprite_ui.png') no-repeat 0 -169px #FFF;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 0 0 43px;
+    position: relative;
+    text-align: left;
+    text-shadow: -1px -1px 0 #CC6633;
+    width: 76px;
+    -webkit-transition: opacity 200ms ease-in,top 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in,top 200ms ease-in;
+    -o-transition: opacity 200ms ease-in,top 200ms ease-in;
+    transition: opacity 200ms ease-in,top 200ms ease-in;
+    opacity: 0.0;
+    filter: alpha(opacity=00);
+    position: absolute;
+    top: 105px;
+    left: 39px;
+}
+
+.shelf li:hover a.btn-add-buy-button-asynchronous {
+    position: absolute;
+    top: 95px;
+    left: 39px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.shelf a.btn-add-buy-button-asynchronous:hover {
+    background-position: 0 -209px;
+    text-shadow: -1px -1px 0 #333;
+    border: solid 1px #494849;
+}
+
+.shelf a.btn-add-buy-button-asynchronous:active {
+    text-shadow: 0 0 0 #FFF;
+}
+
+.shelf div.buy-button-asynchronous {
+    background: none repeat scroll 0 0 #B9B9B9;
+    color: #FFFFFF;
+    display: block;
+    left: 0;
+    line-height: 15px;
+    padding: 0;
+    position: absolute;
+    top: 182px;
+    width: 189px;
+    text-align: center;
+}
+
+.shelf .amount-in-cart {
+    display: none;
+}
+
+.ie8 .shelf .shelfButtonWrapper {
+    display: none;
+}
+
+.ie8 .shelf li:hover .shelfButtonWrapper {
+    display: block;
+}
+
+
+
+
+/* Adicionado por BRUNO em 11/03/2014 */
+.shelfInformationWrapper {
+    text-align: center;
+}
+
+
+
+
+
+
+/* FLAG Produto Indisponivel */
+.bloco-flags-desconto .flagsWrapper2 .outOfStock,
+.shelf .outOfStock {
+    background: url('http://www.rs1.com.br/arquivos/flag-indisponivel.png');
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.bloco-flags-desconto .flagsWrapper2 .outOfStock {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*flags*/
+.highlightWrapper {
+    text-align: center;
+    display: block;
+    line-height: 16px;
+}
+
+
+
+/* .flag {
+	
+	display:inline;
+	
+	 background-color:#B70000;
+	
+	color:#FFF;
+	
+	padding:0 5px 0;
+	
+	margin-bottom:1px;
+	
+	text-align:center;
+	
+	font-size: 9px;
+	
+	 font-family: Arial,Helvetica,Garuda,sans-serif;
+	
+	font-weight: bold;
+	
+	text-transform: uppercase;
+	
+	border-radius: 5px 5px 0 0;
+	
+	display: inline-block;
+	
+
+}
+
+
+
+ */
+
+p.flag.outlet {
+    background: transparent url("/arquivos/flag-outlet.jpg") no-repeat scroll 0% 0% / 100% 100%;
+    width: 70px;
+    height: 43px;
+    font-size: 0px;
+    position: absolute;
+    top: 1px;
+    left: 180px;
+}
+
+.curso-motors-company {
+    background: transparent url("/arquivos/output_qAdRaw.gif") no-repeat scroll 0% 0%;
+    width: 235px;
+    height: 27px;
+    font-size: 0.1px;
+}
+
+.produto .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-geral{
+    background: url(/arquivos/FLAG-BLACK-FRIDAY.png);
+    width: 74px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 8px;
+    font-size: 0px;
+    left: -100px;
+    z-index: 150;
+}
+
+.shelf .desconto-geral{
+    background: url(/arquivos/FLAG-BLACK-FRIDAY.png);
+    width: 75px;
+    height: 100px;
+    color: #000;
+    font-weight: bold;
+    font-size: 0px;
+    line-height: 100px;
+    margin-bottom: 0;
+    display: block;
+    position: absolute;
+    right -10px!important;
+    left: 175px!important;
+    top: 5px!important;
+}
+
+.shelf .ou-1x-no-cartao-de-credito{
+    display: none!important;
+}
+
+.produto .ganhe-camiseta-ls2{
+     color: #fff;
+       background-color:black;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-ls2{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+   }
+
+   .shelf .ganhe-camiseta-norisk{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .ganhe-camiseta-norisk{
+     color: #fff;
+       background-color:black;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-agv{
+         color: #fff;
+       background-color:black;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.produto .ganhe-camiseta-agv{
+     color: #fff;
+       background-color:black;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .-natal-de-ofertas-{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .-natal-de-ofertas-{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .ofertas-especiais {
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.ofertas-especiais {
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+
+.shelf .desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+.desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+.flag {
+    margin-bottom: 1px;
+    font-family: Verdana,Helvetica,Garuda,sans-serif;
+    text-transform: uppercase;
+}
+
+.shelf .desconto-a-vista-25- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-35- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.desconto-a-vista-35- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-20- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+.shelf .desconto-a-vista-22- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.ganhe-camiseta-shark {
+ background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .ofertas-especiais{
+        color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.shark-moonlight-ganhe-camiseta {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 159px;
+    height: 60px;
+    font-size: 0.0px;
+    position: absolute;
+    top: 180px;
+    left: 85px;
+}
+
+.bike {
+    background: url(/arquivos/bike-flag.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 43px;
+    font-size: 0.0px;
+    position: absolute;
+    top: 40px;
+    left: 185px;
+}
+
+.bloco-flags-desconto .bike {
+    background: url(/arquivos/bike-flag.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 43px;
+    font-size: 0.0px;
+    position: absolute;
+    top: 1px;
+    left: 400px;
+}
+
+.shelf .colecao-exemplo-lancamento {
+}
+
+
+
+/*PopUp Quickview*/
+.quickViewMain .boxPopUp2-wrap {
+    width: 934px;
+    height: 605px;
+    border:;
+}
+
+
+
+    .quickViewMain .boxPopUp2-wrap iframe {
+        width: 100%;
+        height: 605px;
+    }
+
+
+
+/*MODAL*/
+.reveal-modal-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0,.8);
+    z-index: 9999;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.reveal-modal {
+    border-radius: 8px;
+    padding: 25px 40px;
+    top: 50%!important; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 750px;
+    background: #f2f2f2;
+    position: fixed;
+    z-index: 99999999;
+}
+
+    .reveal-modal h3 {
+        text-align: center;
+        font-size: 26px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    .reveal-modal li.title {
+        font-weight: bold;
+        font-size: 16px;
+        padding-bottom: 5px;
+        display: block !important;
+    }
+
+    .reveal-modal ul {
+        height: auto;
+        width: 32%;
+        float: left;
+        padding: 0 5px 0 0;
+        border-right: 1px solid #e3e3e3;
+    }
+
+    .reveal-modal > #pagamento-boleto {
+        border-right: 0px none;
+    }
+
+    .reveal-modal > ul > li {
+        font-size: 12px;
+        padding: 8px;
+        float: left;
+        width: 100%;
+    }
+
+    .reveal-modal p {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.8;
+    }
+
+#pagamento-debito .title {
+    line-height: 15px;
+}
+
+#pagamento-debito li {
+    line-height: 20px;
+}
+
+.reveal-modal .bradesco, .paymanetStamps .bradesco {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -420px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .itau, .paymanetStamps .itau {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -462px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .bb, .paymanetStamps .bb {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -504px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .banrisul, .paymanetStamps .banrisul {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -546px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .hsbc, .paymanetStamps .hsbc {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -588px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+#pagamento-boleto .boleto, .paymanetStamps .boleto {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -630px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+#pagamento-boleto .title {
+    line-height: 15px;
+}
+
+#pagamento-boleto li {
+    line-height: 20px;
+}
+
+
+
+/*CARTOES DE CREDITO*/
+
+#pagamento-cartao .title {
+    line-height: 15px;
+}
+
+#pagamento-cartao li {
+    line-height: 18px;
+}
+
+.reveal-modal .elo {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -294px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .hiper {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -210px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .master {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -84px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .visa {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -42px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .dinners {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -126px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .american {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -168px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .aura {
+    height: 20px;
+    width: 42px;
+    background: url(/arquivos/cartoes-pagseguro.gif) -252px 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.reveal-modal .close-reveal-modal {
+    font-size: 22px;
+    line-height: .5;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    color: #aaa;
+    text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Solo imagens*/
+#fotos-solo li {
+    margin: -1px;
+    display: inline-block;
+}
+
+.solo-1 {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    width: 196px;
+    height: 274px;
+    background: url("http://i.imgur.com/f1kcvIa.jpg") no-repeat;
+}
+
+.solo-2 {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    width: 196px;
+    height: 274px;
+    background: url("http://i.imgur.com/0ZXSFOk.jpg") no-repeat;
+}
+
+.solo-3 {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    width: 196px;
+    height: 274px;
+    background: url("http://i.imgur.com/gCPf9h5.jpg") no-repeat;
+}
+
+.solo-4 {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    width: 196px;
+    height: 274px;
+    background: url("http://i.imgur.com/1adGzCa.jpg") no-repeat;
+}
+
+
+#hoversolo:hover {
+    background-position: 0 -274px;
+    box-shadow: 5px 5px 5px #CCC;
+}
+
+/*Solo imagens*/
+
+/*alterado por Miguel 27-08-2015*/
+.sp-container-1 .sp-submenu-seucorpo .menu-xml-container-0 .menu-xml-item-10 {
+    display: none;
+}
+
+#filtro-j {
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+    #filtro-j:hover {
+        background-color: gray;
+    }

@@ -6,7 +6,6 @@
 .halfBanner .box-banner {margin-bottom: 10px;}
 .halfBanner .box-banner+.box-banner {margin-bottom: 0px;}
 
-
 /*
 * SECAO: CARROSSEL DE MARCAS
 * paginas: home
@@ -30,7 +29,6 @@
 .brandsContent .box-banner {float: left; margin: 0 50px;}
 .brandsContent .box-banner img{opacity:0.5; transition:all 0.2s linear;}
 .brandsContent .box-banner img:hover{opacity: 1;}
-
 
 /*
 * SECAO: HALF BANNERS

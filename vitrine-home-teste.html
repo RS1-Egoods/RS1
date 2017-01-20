@@ -1,0 +1,515 @@
+#set($id = $product.Id)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+#set($evaluationRate = $product.EvaluationRate)
+
+<style>
+
+.shelf .ofertas-de-n-a-t-a-l{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.shelf .ofertas-especiais{
+        color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+    .shelf .desconto-geral {
+    background: url(/arquivos/FLAG-BLACK-FRIDAY.png);
+    width: 74px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 8px;
+    font-size: 0px;
+    left: 160px;
+    z-index: 150;
+}
+
+    .shelf .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-10- {
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-15- {
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-20- {
+background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-25- {
+background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-22- {
+background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-30-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-40-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-50-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-30- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-35- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-55-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-60-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-27-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-29-{
+      background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-26-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-43-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-52-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-28-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-31-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-32-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-33-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-34-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-41-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-42-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-51-{
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+/*.home .frete-gratis, .resultado-busca .frete-gratis, .produto .frete-gratis, .marca-teste .frete-gratis {
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    line-height: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+   .home .frete-gratis:after,
+    .resultado-busca .frete-gratis:after,
+    .produto .frete-gratis:after,
+    .marca-teste .frete-gratis:after {
+content: " - Clique e veja";
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    }
+
+
+:hov .cls .shelf .frete-gratis:after {
+        content: " - Clique e veja";
+        color: #696969;
+        background-color: white;
+        font: 11.5px Verdana;
+        font-weight: bold;
+    }*/
+
+    .shelf .frete-gratis {
+background: url(/arquivos/CLIQUE-AQUI.gif)!important;
+    width: 94px!important;
+    height: 34px!important;
+    position: absolute!important;
+    top: 0px!important;
+    left: 100!important;
+    right: 0!important;
+    font-size: 0.1px!important;
+    text-align: left!important;
+}
+
+    .home .frete-gratis:after,
+    .resultado-busca .frete-gratis:after,
+    .produto .frete-gratis:after,
+    .marca-teste .frete-gratis:after {
+content: ""!important;
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    }
+
+
+.shelf .ganhe-camiseta-ls2{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+   }
+
+   .shelf .ganhe-camiseta-norisk{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+
+.shelf .ganhe-camiseta-agv{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+
+.shelf .frete-gratis---sul-sudeste-e-df {
+    background: url(/arquivos/SUL-SUDEST-DF.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 150px!important;
+    right: 0px!important;
+    font-size: 0.1px;
+    text-align: left;
+}
+
+
+</style>
+
+<!-- class: shelf prateleira vitrine home -->
+<div itemscope="" itemtype="http://schema.org/Product">
+    <div class="shelfImageWrapper">
+        <div class="shelfButtonWrapper">
+            <div class="shelfAmountInCart">
+                $product.AmountInCart
+            </div>
+            <!--<div class="shelfBuyButtomWrapper">
+                $product.BottomBuyAsynchronous
+            </div>-->
+        </div>
+        <a class="shefImage" title="$escapedName" href="$uri" itemprop="url">
+            <div class="shelfImage-1" itemprop="image">$product.GetImageTag(235,235)</div>
+            <div class="shelfImage-2" itemprop="image">$product.GetImageTag(235,235,"2")</div>
+        </a>
+    </div>
+
+    <div class="shelfInformationWrapper">
+        <input type="hidden" value="$product.BestPrice" class="qd_productPrice" />
+        <input type="hidden" value="$product.ListPrice" class="qd_productOldPrice" />
+        <input type="hidden" value="$product.NumbersOfInstallment" class="qd_sp_installments" />
+        <h3 itemprop="name"><a title="$escapedName" href="$uri">$product.Name</a></h3>
+        #if ($product.IsInStock)
+            <div class="yv-review-quickreview" value="$id"></div>
+            <p class="shelfPriceWrapper" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                <a title="$escapedName" href="$uri">
+                    #if ($product.HasBestPrice)
+                        <span class="shelfOldPriceWrapper">De $product.ListPrice</span>
+                    #end
+                    <span class="shelfNewPriceWrapper">Por <span class="bestPrice qd_displayPrice" itemprop="price" content="$product.BestPrice">R$ </span> à vista</span>
+                    <span class="installmentWrapper" itemprop="itemCondition">
+                        #if ($product.NumbersOfInstallment > 1)
+                            em até
+                            <strong class=""> ${product.NumbersOfInstallment}x </strong> 
+                            de
+                            <strong class=""> $product.InstallmentValue </strong> 
+                            <span>s/juros</span>
+                        #end
+                    </span>
+                        #if ($product.HasBestPrice)
+                            <span class="saveAmount">economize <span class="qd_saveAmount">R$ </span> <small>(</small><span class="qd_saveAmountPercent">%</span><small>)</small></span>
+                        #end
+                </a>
+                <meta itemprop="priceCurrency" content="BRL">
+                <link itemprop="availability" href="http://schema.org/InStock" />
+            </p>
+        #else
+            <p class="outOfStock">Produto Indisponível</p> 
+        #end
+    </div>
+    #if ($product.IsInStock)
+        <div class="shelfStampsWrapper">
+            <a title="Clique para ver as condições de frete" class="highlightWrapper" href="#" data-reveal-id="frete-gratis-vitrine" data-animation="fade">$product.HightLight</a>
+            <a title="$escapedName" class="highlightWrapper" href="$uri">$product.DiscountHightLight</a>
+        </div>
+    #end
+    
+</div>

@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+    <script src="//cdn.optimizely.com/js/2234760127.js"></script>
+    <title><vtex.cmc:productPageTitle /></title>
+    <vtex:metaTags /> 
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <vtex.cmc:productRichSnippets showFacebook="1" fbAdmins="fbAdmins" fbAppId="173490579391814" />
+    <!--link rel="shortcut icon" type="image/x-icon" href="arquivos/favicon.ico" /--> 
+    <link rel="shortcut icon" href="arquivos/favicon.ico" />
+    <link rel="icon" href="arquivos/favicon-16.png" sizes="16x16" type="image/x-icon" />
+    <link rel="icon" href="arquivos/favicon-32.png" sizes="32x32" type="image/x-icon" />
+    <link href="/Control/ArquivoExibir.aspx?NomeArquivo=favicon" rel="shortcut icon" />
+    <!--link rel="stylesheet" type="text/css" href="/arquivos/bootstrap-menu-rs1.min.css" /-->
+    <!--link rel="stylesheet" type="text/css" href="/arquivos/menu-rs1-10-2015.css" /-->
+    <link rel="stylesheet" type="text/css" href="/arquivos/rs1.reset.css" />
+    <link rel="stylesheet" type="text/css" href="/arquivos/rs1.common.css" />
+    <link rel="stylesheet" type="text/css" href="/arquivos/rs1.product-v2.css" />
+    <script type="text/javascript" src="http://io.vtex.com.br/front-libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">var $$=jQuery.noConflict(true);</script>
+    <script type="text/javascript" src="/arquivos/qd-smartTabs.min.js"></script>
+    <script type="text/javascript" src="/arquivos/rs1.functions.base.v2.js"></script>
+    <script src="/arquivos/jquery.bpopup.js"></script>
+   
+    <meta property="fb:app_id" content="588549327850506" />
+    <script>;(function($) {$(function() {$('#popup-medida-link').bind('click', function(e) {e.preventDefault();$('#element_to_pop_up').bPopup();});});})(jQuery);</script>
+     
+     
+</head>
+
+<body class="produto jsFullLoaded" id="produto" itemscope="" itemtype="http://schema.org/AutoPartsStore">
+    <div id="container">    
+        <div class="mainTpl">
+        <vtex:contentPlaceHolder id="teste-mp" />
+            <div class="breadCrumbWrapper">
+                <vtex.cmc:breadCrumb />
+            </div>
+            <div class="singleColumn">
+                <div class="paddingFix">          
+                <div class="productName">
+                    <div class="row">
+                            <h1 class="productNameWrapper">
+                                <vtex.cmc:productName />
+                            </h1><!-- productNameWrapper -->
+                            <div class="productCodeWrapper dualColumn">
+                                <span>Cód. Ref.: </span>
+                                <vtex.cmc:skuReference/>
+                            </div>
+                            <div id="yv-review-quickreview" style="display: none;"></div> 
+                        </div><!-- row -->
+                </div>
+                <!-- Imagem do Produto -->
+                    <div class="productImageWrapper productLeftColumn dualColumn">
+                        <div class="paddingFix">
+                            <vtex:contentPlaceHolder id="seloImage" />
+                            <vtex.cmc:ProductImage zoom="on"/>
+                        </div><!-- paddingFix -->
+                    </div><!-- productImageWrapper -->
+                    
+          <!-- Informacoes do Produto -->
+                    <div class="productInformationWrapper productRightColumn dualColumn">
+                        <div class="paddingFix">
+                            <div class="row skuSelectWrapper">
+                                <div class="ajaxloaderTpl"></div>
+                                <div class="dualColumn">
+                                    <div class="colorSelectionWrapper">
+                                        <vtex:contentPlaceHolder id="Cores" />
+                                    </div>
+                                </div>
+                                <div class="dualColumn">
+                                    <!--div class="skuSelectionWrapper">
+                                        <vtex.cmc:skuRichSelection changeImage="1" />
+                                    </div-->
+                                    
+                                    <!--SELECAO DE SKUS FORCE RADIO-->
+                                    <div class="skuSelectionWrapper">
+                                        <!--vtex.cmc:skuSelection /-->
+                                        <vtex.cmc:stockKeepingUnitSelection />
+                                        <!--vtex.cmc:skuRichSelection changeImage="1" /-->
+                                    </div>
+                                    <!--SELECAO DE SKUS-->
+                                    
+                                    <!-- Popup Tamanhos -->
+                                    <div class="placeholderWrapper">
+                                        <vtex:contentPlaceHolder id="Texto-Tamanhos" />
+                                    </div><!-- singleColumn -->
+                                </div>
+                            </div><!-- row -->
+              
+                            <!-- PRECO E BOTAO COMPRAR... -->
+              <div class="row bloco-preco-comprar"> 
+                                <div class="buyButtonPriceWrapper">
+                                    <div class="dualColumn">
+                                        <div class="priceWrapper">
+                                            <vtex.cmc:skuPrice/>
+                                        </div>
+                                    </div><!-- dualColumn -->
+                                    <div class="dualColumn">
+                                        <div class="buyButtonWrapper">
+                                        <!--<vtex.cmc:BuyInPage/>-->
+                                        <vtex.cmc:BuyButton />
+<!-- Selecione o tamanho -->
+<style>
+.specification {
+  font-size: 0px!important;
+}
+.append-specification {
+  font-size: 16px!important;
+}
+</style>
+<!-- /.Selecione o tamanho -->
+
+<!-- Style BuyInPage add por Julio --> 
+<style>
+.buy-in-page-button {
+    background-image: linear-gradient(to bottom, #00d400 50%, #00d400 50%);
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    float: right!important;
+    font-size: 20px;
+    width: 100%;
+    line-height: 48px;
+    transition: all 0.1s linear;
+    font-weight: bold;
+    moz-box-shadow: 5px 5px green;
+    -webkit-box-shadow: 5px 5px green;
+    box-shadow: 5px 5px green;
+}
+ 
+
+.buy-in-page-button:hover {
+        text-decoration: none!important;
+        box-shadow: none;
+        background: #3fb300!important;
+    }
+.buy-in-page-button:after {
+        top: 5px;
+        left: 120px;
+        height: 34px;
+        width: 35px;
+        content: "";
+        float: left;
+        position: relative;
+        background: url(BTN-CARRINHO.png) transparent;
+    }
+
+.buy-in-page-button::before {
+      font-size: 19px!important;
+        content: "Adicionar ao carrinho";
+        vertical-align: middle!important;
+    }
+
+.buy-in-page-quantity {
+  display: none!important;
+}
+
+#produto .desconto-natal-10- {
+    left: 420px!important;
+}
+#produto .desconto-natal-15- {
+    left: 420px!important;
+}
+#produto .desconto-natal-20- {
+    left: 420px!important;
+}
+#produto .desconto-natal-25- {
+    left: 420px!important;
+}
+#produto .desconto-natal-30- {
+    left: 420px!important;
+}
+#produto .desconto-natal-35- {
+    left: 420px!important;
+}
+#produto .desconto-natal-40- {
+    left: 420px!important;
+}
+#produto .desconto-natal-45- {
+    left: 420px!important;
+}
+#produto .desconto-natal-50- {
+    left: 420px!important;
+}
+</style>
+<!-- /.Style BuyInPage add por Julio -->
+                                            <!--<vtex.cmc:BuyButton />-->
+                                        </div><!-- buyButtonWrapper -->
+                                    </div><!-- dualColumn -->
+                                </div><!-- buyButtonPriceWrapper -->
+                            </div><!-- row -->
+                            
+                            <!-- FLAGS DESCONTO... -->
+              <div class="row bloco-flags-desconto">
+                                <div class="dualColumn">
+                                    <div class="flagsWrapper">
+                                        <a href="#" class="first-flag" title="Clique para ver as condições de frete" data-reveal-id="frete-gratis-produto" data-animation="fade">
+                                            <vtex.cmc:hightLight />                                            
+                                        </a>
+                                        
+                                        <vtex.cmc:discountHightLight />
+                                    </div><!-- flagsWrapper -->
+                                    <div class="flagsWrapper2">
+                                        <p class="outOfStock" style="display:inline-block;">Produto Indisponível</p>
+                                    </div><!-- flagsWrapper2 -->                                    
+                                </div>
+                                <div class="dualColumn">
+                                    <div class="membersPrice">
+                                        <vtex.cmc:stockKeepingUnitRewardValue/>
+                                    </div>
+                                                                        
+                                </div>
+                            </div><!-- row -->
+                            
+                            <div class="row">
+                                 <div class="placeholderWrapper">
+                                    <vtex:contentPlaceHolder id="Título do Banner2" />
+                                 </div><!-- singleColumn -->
+                            </div><!-- row -->
+                            <div class="row m-3x-promo">
+                             <vtex:contentPlaceHolder id="mensagem-3x" />
+                            </div>
+                            <!--PARCELAMENTO-->
+                            <div class="priceInstallmentWrapper">
+                                <p class="priceInstallmentTitle" title="Clique para ver as opções de parcelamento">Opções de parcelamento</p>
+                                <vtex.cmc:OtherPaymentMethod/>
+                            </div>
+
+                            <div class="row">
+                                <div class="serviceButtons">
+                                    <div class="qd-smartTabs">
+                  
+                                        <!--  "Informe seu CEP" -->
+                    <!--div class="qd-tabContent shipmentWrapper" style="display:block!important; margin: 0!important;"--><!-- Atualizado por Bruno em 07-02-2014 -->
+                                        <div class="qd-tabContent shipmentWrapper">
+                                            <!-- 2509 -->
+                                            <vtex.cmc:shippingValue />
+                                        </div>                                    
+
+                                        <ul class="qd-tabNav" style="display:none;"><!-- Colocado STYLE em 07/03/2014, pra aparecer apenas o CEP no site -->
+                                            <li class="btn-giftlist"><span class="ico"></span><span>Adicionar a lista de desejos</span></li>
+                                            <li class="btn-shipment"><span class="ico"></span><span>Calcular Prazo de Entrega</span></li>
+                                        </ul>
+
+                                    </div><!-- qd-smartTabs -->
+                                </div><!-- serviceButtons -->
+                            </div><!-- row -->
+                            
+                        </div><!-- paddingFix -->
+                    </div><!-- productInformationWrapper -->
+                </div><!-- paddingFix -->
+            </div><!-- singleColumn -->
+            
+            <!--SELOS DOS CAPACETES-->
+            <vtex:contentPlaceHolder id="seloCasualgp" />
+            <div class="singleColumn placeholderWrapper">
+                <vtex:contentPlaceHolder id="selosSeguranca" />
+                <vtex:contentPlaceHolder id="Banner-Capacete-Seguro" />
+                <vtex:contentPlaceHolder id="Promocao" />
+            </div>
+            <!--DESCRICAO E ESPECIFICACAO-->
+            <div class="singleColumn descSpecWrapper">
+                <div class="qd-smartTabs">
+                    <ul class="qd-tabNav">
+                        <li><span class="ico"></span><span>Descrição</span></li>
+                        <li><span class="ico"></span><span>Especificação</span></li>
+                    </ul>
+                    <div class="qd-tabContent productDescriptionWrapper">
+                        <div class="paddingFix">
+                            <vtex.cmc:ProductDescription/>
+                        </div>
+                    </div>
+                    <div class="qd-tabContent specificationWrapper">
+                        <div class="paddingFix">
+                            <vtex.cmc:productSpecification/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--DISCRICAO E ESPECIFICACAO-->
+            
+            <!--COMPRE JUNTO-->
+            <div class="singleColumn">
+                <div class="buyTogetherTableWrapper">
+                    <vtex.cmc:BuyTogether/>
+                </div>
+            </div>
+            <div class="singleColumn">
+                <div class="buyTogetherWrapper">
+                    <h2><vtex:contentPlaceHolder id="Titulo Crosselling" /></h2>
+                    <div class="productsWrapper">
+                        <div class="thumbWrapper">
+                            <div class="thumb"></div>
+                            <span class="icoPlus">+</span>
+                            <h3><vtex.cmc:productName /></h3>
+                        </div>
+                        <div class="collectionWrapper">
+                            <p><vtex:contentPlaceHolder id="Texto Crosselling" /></p>
+                            <vtex:contentPlaceHolder id="Crosselling" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--COMPRE JUNTO-->
+        <div class="col-md-12 col-xs-12 col-sm-12">
+                <vtex:contentPlaceHolder id="Produtos-Sugeridos" />
+        </div>
+            <!--OPNIAO-->
+            <div class="singleColumn">
+                <div class="userReviewWrapper">
+                    <h2>Avaliações do produto</h2>
+                    <div id="yv-reviews"></div>
+                    
+                    <h2>Dúvidas sobre o produto</h2>
+                    <div class="yv-qa"></div>
+                </div><!-- userReviewWrapper -->
+            </div>
+        </div>
+    </div>
+    <vtex:template id="header" />
+    <vtex:template id="footer-novo" />
+    <!--<vtex:template id="Exit-FB-POPUP" />-->
+<script>
+        $("label.dimension-Tamanho:not(.item_unavailable)").each(function (i, obj) {
+     if ($(obj).hasClass("item_unavailable")) {
+       
+    }else{
+$(obj).addClass("item-disponivel");
+}
+    });
+</script>
+<script>
+        $(document).ready(function(){
+        if ($("label.dimension-Tamanho").hasClass("item-disponivel") || $("label.dimension-Tamanho").hasClass("item_unavailable")) {
+ if ($("label.dimension-Tamanho").hasClass("item-disponivel")) {
+       
+    }else{
+ $(".portal-notify-me-ref").css("display","block");
+ $(".notifyme").css("display","block");
+ $(".notifyme-title-div").css("display","block");
+ $(".notifyme form").css("display","block");
+ $(".notifyme-form input").css("display","block");
+ $(".notifyme-form p").css("display","block");
+ $(".flagsWrapper2").css("display","block");
+
+ }
+ }
+
+});
+</script>
+<!--<script>
+     $(document).ready(function(){
+ if ($("body").hasClass("skuList")) {
+       
+    }else{
+ $(".portal-notify-me-ref").css("display","none");
+ $(".notifyme").css("display","none");
+ $(".notifyme-title-div").css("display","none");
+ $(".notifyme form").css("display","none");
+ $(".notifyme-form input").css("display","none");
+ $(".notifyme-form p").css("display","none");
+ $(".flagsWrapper2").css("display","none");
+
+ }
+
+});
+</script>-->
+<!-- Append e contents -->
+<script>
+$(".specification").append('<span class="append-specification">Selecione o tamanho</span>');
+</script>
+<script>
+$( document ).ready(function() {
+$('.promocao-alpinestars:first').css("display", "none");
+});
+</script>
+<script>
+$( document ).ready(function() {
+$('.ofertas-de-maio:first').css("display", "none");
+});
+</script>
+<!-- /. Append e contents -->
+<style>
+  
+  
+ .shelf .frete-gratis---todo-brasil {
+    background: url(/arquivos/output_EY73Bw.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 150px !important;
+    right: 0;
+    font-size: 0.1px;
+    text-align: left;
+}
+
+.second-flag .promocao-alpinestars{
+  display:none!important;
+}
+.ofertas-de-maio {
+    background-color: red;
+    color: #fff;
+    font: bold 12px/27px Verdana;
+    height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+.first-flag .ofertas-de-maio{
+  display: none!important;
+}
+.first-flag .ofertas-do-mes{
+  display: none!important;
+}
+.first-flag .compre-e-ganhe{
+  display: none!important;
+}
+.first-flag > p:nth-child(3) {
+  display: none!important;
+}
+.n4colunas .desconto-a-vista-5- {
+  display: block!important;
+}
+
+.produto .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-20-{
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-25-{
+    background-color: white;
+    color: #696969;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-26-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-43-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-52-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-28-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+.desconto-a-vista-30-{
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.produto .desconto-a-vista-30-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-35-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-40-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-50-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-55-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-60-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-27-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-29-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-31-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-32-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-33-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-34-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-41-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-42-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-a-vista-51-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.shelf .desconto-a-vista-3-{
+    background-color: #8B0000;
+    color: #fff;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.produto .desconto-geral{
+    background: url(/arquivos/FLAG-BLACK-FRIDAY.png);
+    width: 74px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 8px;
+    font-size: 0px;
+    left: -100px;
+    z-index: 150;
+}
+
+.produto .ou-1x-no-cartao-de-credito {
+    position: absolute;
+    background-color: black;
+    color: yellow;
+    font: 12px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 100%;
+    top: 313px;
+}
+
+#popup-medida-link:hover, .priceInstallmentTitle:hover {
+    text-decoration: underline!important;
+        background-color: white!important;
+    color: blue!Important;
+}
+#popup-medida-link {
+    padding: 8px 0;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white!important;
+    color: black!important;
+}
+
+.produto .ganhe-camiseta-ls2{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-ls2{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+   }
+
+   .shelf .ganhe-camiseta-norisk{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .ganhe-camiseta-norisk{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.shelf .ganhe-camiseta-agv{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.produto .ganhe-camiseta-agv{
+    color: #696969;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.produto .frete-gratis---sul-sudeste-e-df {
+    background: url(/arquivos/SUL-SUDEST-DF.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px!important;
+    font-size: 0.1px;
+    z-index: 200;
+    left: -115px!important;
+}
+
+.shelf .frete-gratis---sul-sudeste-e-df {
+    background: url(/arquivos/SUL-SUDEST-DF.gif);
+    width: 94px;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 150px!important;
+    right: 0px!important;
+    font-size: 0.1px;
+    text-align: left;
+}
+
+.shelf .frete-gratis {
+    background: url(/arquivos/CLIQUE-AQUI.gif)!important;
+    width: 94px!important;
+    height: 34px!important;
+    position: absolute!important;
+    top: 0px!important;
+    left: 150px!important;
+    right: 0!important;
+    font-size: 0.1px!important;
+    text-align: left!important;
+}
+
+.shelf .ofertas-de-n-a-t-a-l{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.produto .ofertas-de-n-a-t-a-l{
+    color: red;
+    background-color: white;
+    font: 11.5px Verdana;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+</style>
+</body>
+</html>
