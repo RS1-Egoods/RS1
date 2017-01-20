@@ -3463,29 +3463,6 @@ p.flag.outlet {
     width: 100%;
 }
 
-
-.shelf .desconto-a-vista-30-{
- background-color: white!important;
-    color: #696969!important;
-    font: 11.5px Verdana!important;
-    font-weight: bold!important;
-    height: 27px!important;
-    line-height: 27px!important;
-    margin-top: 1px!important;
-    text-align: center!important;
-    width: 100%!important;
-}
-.desconto-a-vista-30-{
- background-color: white!important;
-    color: #696969!important;
-    font: 11.5px Verdana!important;
-    font-weight: bold!important;
-    height: 27px!important;
-    line-height: 27px!important;
-    margin-top: 1px!important;
-    text-align: center!important;
-    width: 100%!important;
-}
 .flag {
     margin-bottom: 1px;
     font-family: Verdana,Helvetica,Garuda,sans-serif;
@@ -3493,6 +3470,30 @@ p.flag.outlet {
 }
 
 .shelf .desconto-a-vista-25- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.shelf .desconto-a-vista-40- {
+ background-color: white!important;
+    color: #696969!important;
+    font: 11.5px Verdana!important;
+    font-weight: bold!important;
+    height: 27px!important;
+    line-height: 27px!important;
+    margin-top: 1px!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.desconto-a-vista-40- {
  background-color: white!important;
     color: #696969!important;
     font: 11.5px Verdana!important;
